@@ -6,15 +6,14 @@
 Crowdsourcing project for [Startup Engineering](https://class.coursera.org/startup-001/class/index) with [Coursera](https://www.coursera.org/) - spiced up with the awesome [Yeoman](http://yeoman.io/) project.
 
 
-<img src="https://nav.heroku.com/images/logos/logo.png" style="float:right">
-
-
 ## Deployment
 
 Latest project Heroku [deployment](http://stark-bayou-6742.herokuapp.com/)
 
+<img src="https://nav.heroku.com/images/logos/logo.png">
+
 ## Want less yo-fun?
 
-Orignial project [repo](https://github.com/nostopbutton/bitstarter)
+Orignial project with [Noman](https://github.com/nostopbutton/bitstarter)
 
 
