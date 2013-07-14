@@ -1,8 +1,16 @@
 {
-  "name": "node-example",
+  "name": "bitstarter",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nostopbutton/bitstarter-yo"
+  },
   "dependencies": {
     "express": "2.5.x"
+    , "connect": "2.7.x"
+    , "ejs": "0.8.x"
+    , "gzippo": "0.2.x"
+    , "colors": "0.6.x"
   },
   "engines": {
     "node": "0.8.x",
