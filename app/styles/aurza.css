@@ -1,0 +1,51 @@
+@import url('fonts/balham.css') screen;
+
+/* http://stackoverflow.com/questions/4267415/using-true-type-fonts-in-web-applications/4558100#4558100
+  Font embedding can be a bit complicated due to browser compatibility issues. For example:
+    Safari only supports SVG fonts.
+    IE only supports .eot, which must first be converted from .ttf */
+/*@font-face {*/
+    /*font-family: 'Balham';*/
+    /*src: url('fonts/Balham/stylesheet.css');*/
+/*}*/
+
+.logo {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-family: 'Balham', Helvetica, Arial, sans-serif;
+    font-size: 80px;
+}
+
+.dict.box {
+    padding: .5%;
+    background-color: #eee;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+}
+
+p.dict {
+    text-align: left
+}
+
+p.dict.word {
+    padding-top: 1.5%;
+    /*font-size: 24px;*/
+    line-height: 20px;
+}
+
+p.dict.type {
+    font-weight: 200;
+    /*font-size: 24px;*/
+    line-height: 5px;
+}
+
+p.dict.def {
+    font-weight: 200;
+    font-size: 18px;
+    /*line-height: 30px;*/
+}
+
+.steps {
+    text-align: center;
+}

@@ -10,12 +10,17 @@
   <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
   <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
   <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+
+  <!--<script type='text/javascript' src='http://code.jquery.com/jquery-1.6.4.js'></script>-->
+  <script type='text/javascript' src="http://www.jplayer.org/latest/js/jquery.jplayer.min.js"></script>
+
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic"
         rel="stylesheet" type="text/css">
   <link
       href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
       rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="./styles/9b115b05.main.css">
+  <link rel="stylesheet" href="./styles/ce55a211.main.css">
+  <link rel="stylesheet" href="./styles/aurza.css">
   <style type="text/css">
 
       /* Large desktop */
@@ -117,6 +122,66 @@
       /*color: #ccccff;*/
     /*}*/
   </style>
+
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Using jQuery object, rather than $
+      var mediaPlayer = jQuery('#mediaContainer');
+
+      mediaPlayer.jPlayer({
+        // Tells JPlayer where to find the SWF file.
+        swfPath: '/swf/Jplayer.swf',
+
+        // Fix for some older Andriod phones.
+        solution:    "flash, html",
+
+        // Tells the player that the track is available in:
+        //         mp3, Ogg Vorbis and Wave formats.
+        supplied : 'mp4, oga, wav',
+
+        // Assigns the CSS selectors which will control the player,
+        //         creating buttons.
+        cssSelector: {
+          play: '#playButton',
+          pause: '#pauseButton',
+          stop: '#stopButton'
+        },
+
+        // Assigns the files for each format, once the player is loaded.
+        ready: function() {jQuery(this).jPlayer("setMedia", {
+          mp4: '/scripts/audio/aurza.mp4',
+//          oga: '/audio/track.oga',
+          wav: '/scripts//audio/aurza.wav'
+        });}
+
+      });
+      $('#playButton').click(function() {
+        $('#mediaContainer').jPlayer('play');
+      });
+      $('#pauseButton').click(function() {
+        $('#mediaContainer').jPlayer('pause');
+      });
+      $('#stopButton').click(function() {
+        $('#mediaContainer').jPlayer('stop');
+      });
+    });
+  </script>
+
+  <!--<script>-->
+    <!--$("#audio").jPlayer({-->
+      <!--swfPath: "http://www.jplayer.org/latest/js/Jplayer.swf",-->
+      <!--supplied: "mp3"-->
+    <!--});-->
+
+    <!--$("a").click(function(e) {-->
+      <!--$("#audio").jPlayer("setMedia", {-->
+        <!--mp3: this.href-->
+      <!--}).jPlayer("play");-->
+
+      <!--e.preventDefault();-->
+    <!--});-->
+<!--//  </script>-->
 </head>
 <body>
 
@@ -151,19 +216,38 @@
   <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
   <div class="row-fluid heading">
     <div class="span12">
-      <h1>Yo Product</h1>
+      <h1 class="logo">Aurza</h1>
     </div>
   </div>
   <div class="row-fluid subheading">
-    <div class="span12">
+    <div class="span10 offset1 dict box">
       <!-- Special typography from Bootstrap for lead paragraph. -->
       <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-      <p class="lead">One sentence description.</p>
+        <div id="mediaContainer"></div>
+        <p class="dict word">Aurza [aur·za  (ôr zaa)] <i class="icon-volume-up" id="playButton"> </i></p>
+        <!--<div id="pauseButton">Pause</div>-->
+        <!--<div id="stopButton">Stop</div>-->
+        <p class="dict type"><em>noun</em></p>
+        <p class="dict def">1. A distinctive but intangible confidence that radiates from within a woman when wearing her perfect dress.</p>
     </div>
+  </div>
+
+  <div class="row-fluid subheading">
+    <div class="span10 offset1 ">
+      <p class="lead">
+        Experience custom, make your own design with the click of a few buttons - feel AMAZING!
+      </p>
+    </div>
+
   </div>
   <div class="row-fluid pitch">
     <div class="span5 offset1 video">
-      <img class="img-polaroid" src="http://placekitten.com/480/300">
+      <iframe title="TECHY 3D VIDEO (maybe some humour?!)"
+              width="480" height="296"
+              src="http://www.youtube.com/embed/0z79jnz9v60?rel=0;showinfo=0;controls=0"
+              frameborder="0"
+              allowfullscreen modestbranding="1"></iframe>
+
     </div>
 
     <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -180,7 +264,7 @@
           </div>
           <div class="span4">
             <div class="linediv-c">
-              <h3>$6000</h3> <p>of $10,000</p>
+              <h3>$6000</h3> <p>of $30,000</p>
             </div>
           </div>
           <div class="span4">
@@ -217,44 +301,219 @@
   <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
   <!-- http://placehold.it -->
   <div class="row-fluid section1">
-    <div class="span5 offset1 asset">
-      <img class="img-polaroid" src="http://placekitten.com/g/480/300">
-    </div>
-    <div class="span5 copy">
+    <div class="span5 offset1 copy">
+      <p class="lead">
+        Why we exist
+      </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-        mollis justo velit at nunc. Fusce nec egestas sem. Donec
-        fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-        volutpat lorem ut congue malesuada. In facilisis scelerisque
-        turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-        quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-        risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-        rutrum, nunc leo tempus nisl, eu mollis justo velit at
-        nunc. Fusce nec egestas sem. Donec fringilla.
+        Clothes don’t fit
+      </p>
+
+      <p>
+        They are not made for ‘us’
+      </p>
+
+      <p>
+        We want to feel fabulous
+      </p>
+
+    </div>
+    <div class="span5 asset">
+      <p class="lead">
+        AURZA passion for change  (pictoral – maybe Gary can do?)
+      </p>
+      <p>
+        Real women 3d scan + choice of styling + choice of fit
+      </p>
+
+    </div>
+  </div>
+
+
+  <div class="row-fluid section1">
+    <div class="span5 offset1 copy">
+      <p class="lead">
+        The fit conundrum
+      </p>
+      <p>
+        Why clothes don’t fit
+      </p>
+      <p>
+        3d technology
+      </p>
+      <p>
+        Leveraging the technology
+      </p>
+
+    </div>
+    <div class="span5 asset">
+    <p class="steps">
+      TECHY 3D VIDEO (maybe some humour?!)
+      </p>
+    <p class="steps">
+      <img class="img-polaroid" src="http://placekitten.com/480/300">
+    </p>
+  </div>
+  <div class="row-fluid section1">
+    <div class="span5 offset1 copy">
+      <p class="lead">
+        OUR RANGE
+      </p>
+      <p>
+        Spinning pictures
+      </p>
+
+    </div>
+    <div class="span5 asset">
+      <p class="lead">
+        HOW IT WORKS
+
+      </p>
+      <p>
+        SIMPLE EXPLANATION – MAYBE THE ICONS FROM THE
+
+        WEBSITE TO KEEP IT SIMPLE
       </p>
     </div>
   </div>
 
-  <div class="row-fluid section2">
-    <div class="span5 offset1 copy copy-right">
+  <div class="row-fluid section1">
+    <div class="span10 offset1 copy">
+      <p class="lead">
+        THE CAMPAIGN
+
+      </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-        mollis justo velit at nunc. Fusce nec egestas sem. Donec
-        fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-        volutpat lorem ut congue malesuada. In facilisis scelerisque
-        turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-        quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-        risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-        rutrum, nunc leo tempus nisl, eu mollis justo velit at
-        nunc. Fusce nec egestas sem. Donec fringilla.
+
+        We have Partnered with world leading pioneer in 3D scanning
+        and pattern marking and expert ateliers already
+        experienced in high end production for global market
+        Developed the design and sizing technology
+        Created initial samples of the range of dresses seen above
+      </p>
+      <p>
+
+        We need 30,000 USD to:
+      </p>
+      <p>
+        Invest in initial fabric Grade and sample the range
+      </p>
+      <p>
+        Photograph the designs for the final website
       </p>
     </div>
-    <div class="span5 asset">
-      <img class="img-polaroid" src="http://placekitten.com/480/300">
+  </div>
+  <div class="row-fluid section1">
+    <div class="span10 offset1 copy">
+      <h1>How it works</h1>
+
+      <ul class="thumbnails">
+        <li class="span4">
+          <div class="thumbnail">
+            <img src="http://placekitten.com/g/400/400" alt="choose">
+            <h3 class="steps">1. CHOOSE <i class="icon-arrow-right"> </i></h3>
+            <!--<p>Thumbnail caption...</p>-->
+          </div>
+        </li>
+        <li class="span4">
+          <div class="thumbnail">
+            <img src="http://placekitten.com/g/300/300" alt="customise">
+            <h3 class="steps">2. CUSTOMISE <i class="icon-arrow-right"> </i></h3>
+            <!--<p>Thumbnail caption...</p>-->
+          </div>
+        </li>
+        <li class="span4">
+          <div class="thumbnail">
+            <img src="http://placekitten.com/g/320/320" alt="cherish">
+            <h3 class="steps" >3. CHERISH</h3>
+            <!--<p>Thumbnail caption...</p>-->
+          </div>
+        </li>
+      </ul>
+      <p class="lead">
+        1. <em>CHOOSE</em> your favourite dress silhouette or ready to buy design
+      </p>
+      <p>
+        Change the neckline, sleeves, hem length and colour. Simply click on the
+        “Customise” button to start adding personal touches.
+      </p>
+      <p class="lead">
+        2.	Click <em>CUSTOMISE</em> to change anything you want or BUY to take it as it is.
+      </p>
+      <p>
+        Once you have paid through our secure payment gateway we will make your design
+        exclusively for you and send it to you within 3 weeks
+      </p>
+      <p class="lead">
+        3.	We hope that you will <em>CHERISH</em> your creation
+      </p>
+      <p>
+        But if it is not exactly how you dreamt it would be we will provide 300HKD
+        for local tailoring, remake it free of charge or offer a full refund if
+        returned unworn within 30 days of purchase*
+      </p>
+    </div>
+  </div>
+  <div class="row-fluid section1">
+    <div class="span10 offset1 copy">
+      <p class="lead">
+        I’VE NEVER CUSTOMISED BEFORE!
+      </p>
+      <p>
+        Don’t worry It’s very simple and if you aren’t happy with your garment
+        you can return it within 30 days or get it altered.
+      </p>
+    </div>
+  </div>
+
+  <div class="row-fluid section1">
+    <div class="span10 offset1 copy">
+      <h1>About us</h1>
+      <p>
+        We founded AURZA out of a frustration of never being able to find the
+        clothes we really wanted. After having children clothes shopping had
+        lost its sparkle, left us deflated and there was always a compromise –
+        too short, too baggy, too expensive or just too plain.
+      </p>
+      <p>
+        So our aim is simple - to allow women like us to create extraordinary
+        clothes that reflect their own sense of style whilst both flattering
+        and fitting each of our unique bodies.
+      </p>
+    </div>
+  </div>
+  <div class="row-fluid section1">
+    <div class="span5 offset1 asset">
+      <img class="img-polaroid" src="http://placekitten.com/g/480/330">
+
+    </div>
+    <div class="span5 copy">
+
+      <p>
+        We want everyone to be able to step out with confidence day and night,
+        feeling a million dollars and we know from personal experience that a
+        great outfit can make all the difference.
+      </p>
+      <p>
+        We are starting by offering utterly fabulous custom made dresses and
+        separates designed by us and perfected by you. You choose the style and
+        simply change the bodice, skirt, sleeves, length, fabric, trims and
+        accessories.
+      </p>
+      <p>
+        You can then decide whether our unique standard sizing
+        model based on 3d body scanning is right for you or whether you want
+        us to create a bespoke pattern just for you based on your measurements.
+      </p>
+    </div>
+  </div>
+  <div class="row-fluid section2">
+    <div class="span10 offset1 copy copy-right">
+
+      <p>
+        Once you have experienced custom from the comfort of your own home you
+        will always want to feel this good.
+      </p>
     </div>
   </div>
 
