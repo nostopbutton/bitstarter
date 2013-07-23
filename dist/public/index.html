@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <title>AURZA - Experience Custom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--<link rel="stylesheet" href="./vendor/styles/startup%252Fcode%252Fbootstrap-combined.no-icons.min.css">-->
+  <!--<link rel="stylesheet" href="./vendor/styles/font-awesome.css">-->
+  <!--<link rel="stylesheet" href="./vendor/styles/startup%252Fcode%252Fsocial-buttons.css">-->
+  <!--<link rel="stylesheet" href="./vendor/styles/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">-->
+  <!--<link rel="stylesheet" href="./vendor/styles/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800">-->
+
   <link rel="stylesheet"
         href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -12,7 +19,8 @@
         rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
       rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="./styles/928d0693.main.css">
+
+  <link rel="stylesheet" href="./styles/2f0228ff.main.css">
   <link rel="stylesheet" href="./styles/aurza.css">
   <link rel="stylesheet" href="./styles/video.css">
   <link rel="stylesheet" href="./styles/fonts/fffc8cfe.balham.css">
@@ -38,10 +46,11 @@
           <li><a href="#fit">The fit conundrum</a></li>
           <li><a href="#range">Our range</a></li>
           <li><a href="#campaign">The campaign</a></li>
+          <li><a href="#try">Try the design builder</a></li>
           <li><a href="#how">How it works</a></li>
           <li><a href="#about">About us</a></li>
           <li><a href="#FAQ">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <!--<li><a href="#contact">Contact</a></li>-->
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -55,6 +64,7 @@
 
   <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
   <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
+
   <div class="row-fluid heading">
     <section id="home">
       <div class="span12">
@@ -63,79 +73,102 @@
     </section>
   </div>
   <div class="row-fluid subheading">
-    <div class="span10 offset1 dict box">
-      <!-- Special typography from Bootstrap for lead paragraph. -->
-      <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-        <div id="mediaContainer"></div>
-        <p class="dict word">Aurza [aur·za  (ôr zaa)] <i class="icon-volume-up" id="playButton"> </i></p>
-        <!--<div id="pauseButton">Pause</div>-->
-        <!--<div id="stopButton">Stop</div>-->
-        <p class="dict type"><em>noun</em></p>
-        <p class="dict def">1. A distinctive but intangible confidence that radiates from within a woman when wearing her perfect dress.</p>
-    </div>
-  </div>
-
-  <div class="row-fluid subheading">
-    <div class="span12 ">
-      <p class="lead">
-        Experience custom, make your own design with the click of a few buttons - feel AMAZING!
-      </p>
-    </div>
+    <section id="subheading">
+      <div class="span12">
+        <p class="sub-title">experience custom</p>
+      </div>
+    </section>
   </div>
 
   <div class="row-fluid pitch">
-    <div class="span5 offset1 video">
-      <div class="flex-video widescreen">
-        <iframe title="TECHY 3D VIDEO (maybe some humour?!)"
-                width="480" height="296"
-                src="http://www.youtube.com/embed/0z79jnz9v60?rel=0;showinfo=0;controls=0"
-                frameborder="0"
-                allowfullscreen modestbranding="1"></iframe>
+    <section id="tags">
+      <div class="span10 offset1 right-align">
+        <p class="tags">
+          <i class="icon-tag" id="icon-tag"> </i>Fashion, Custom   &nbsp <i class="icon-map-marker" id="icon-map-marker"> Hong Kong & London </i>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <div class="row-fluid ">
+    <div class="span7 offset1">
+      <div class="row-fluid ">
+        <div class="span12 dict box">
+          <!-- Special typography from Bootstrap for lead paragraph. -->
+          <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
+          <div id="mediaContainer"></div>
+          <p class="dict word">Aurza [aur·za  (ôr zaa)] <i class="icon-volume-up" id="playButton"> </i></p>
+          <!--<div id="pauseButton">Pause</div>-->
+          <!--<div id="stopButton">Stop</div>-->
+          <p class="dict type"><em>noun</em></p>
+          <p class="dict def">1. A distinctive but intangible confidence that radiates from within a woman when wearing her perfect dress.</p>
+        </div>
+      </div>
+      <div class="row-fluid ">
+        <div class="span12 video">
+          <div class="faux-vid">
+            <p class="lead">
+              Experience custom,
+            </p>
+            <p class="lead">
+              make your own design with the click of a few buttons
+            </p>
+            <p class="lead">
+              - feel AMAZING!
+            </p>
+            <img src= "../images/play.png"/>
+            </div>
+        </div>
       </div>
     </div>
-
     <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
-    <div class="span5 actions">
-      <div class="span8 offset2">
-        <div class="statistics">
-          <div class="span4">
-            <!-- linediv-l and linediv-r give dividing lines that look
-            different in horizontal and vertical layouts, illustrating
-            media queries. -->
-            <div class="linediv-l">
-              <h3>1000</h3> <p>backers</p>
-            </div>
+    <div class="span3 actions">
+      <div class="row-fluid ">
+        <div class="span8 offset2 statistics">
+              <!-- linediv-l and linediv-r give dividing lines that look
+              different in horizontal and vertical layouts, illustrating
+              media queries. -->
+          <div class="row-fluid ">
+              <div class="span12 linediv-b">
+                <h1>1000</h1> <p class="statistics label">backers</p>
+              </div>
           </div>
-          <div class="span4">
-            <div class="linediv-c">
-              <h3>$6000</h3> <p>of $30,000</p>
+            <div class="row-fluid ">
+              <div class="span12 linediv-b">
+                <h1>$6000</h1> <p class="statistics label">of $30,000</p>
+              </div>
             </div>
-          </div>
-          <div class="span4">
-            <div class="linediv-r">
-              <h3>10</h3> <p>days left</p>
+              <div class="row-fluid ">
+              <div class="span12 linediv-t">
+                <h1>10</h1> <p class="statistics label">days left</p>
+              </div>
             </div>
+        </div>
+      </div>
+      <div class="row-fluid ">
+        <div class="span8 offset2">
+          <!-- Bootstrap progress bar -->
+          <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+          <div class="thermometer progress active">
+            <div class="bar bar-success" style="width: 60%;"></div>
+            <div class="bar bar-warning" style="width: 40%;"></div>
           </div>
         </div>
       </div>
-      <div class="span10 offset1">
-        <!-- Bootstrap progress bar -->
-        <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-        <div class="thermometer progress active">
-          <div class="bar bar-success" style="width: 60%;"></div>
-          <div class="bar bar-warning" style="width: 40%;"></div>
+      <div class="row-fluid ">
+        <div class="span6 offset3 order">
+          <!-- Standard Bootstrap button. -->
+          <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+          <button class="btn btn-success btn-large btn-pledge">Pledge</button>
         </div>
       </div>
-      <div class="span6 offset3 order">
-        <!-- Standard Bootstrap button. -->
-        <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-        <button class="btn btn-success btn-large">Preorder</button>
-      </div>
-      <div class="span8 offset2 social">
-        <!-- Social buttons are not included in default Bootstrap. -->
-        <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+      <div class="row-fluid ">
+        <div class="span8 offset2 social">
+          <!-- Social buttons are not included in default Bootstrap. -->
+          <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+          <button class="btn btn-twitter btn-small"><i class="icon-twitter"></i> | Twitter</button>
+          <button class="btn btn-facebook btn-small"><i class="icon-facebook"></i> | Facebook</button>
+        </div>
       </div>
     </div>
   </div>
@@ -144,261 +177,359 @@
   <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
   <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
   <!-- http://placehold.it -->
-  <div class="row-fluid section1">
-    <section id="why">
-      <div class="span5 offset1 copy">
-        <p class="lead">
-          Why we exist
-        </p>
-        <p>
-          Clothes don’t fit
-        </p>
+  <div class="row-fluid">
+    <div class="span7 offset1">
 
-        <p>
-          They are not made for ‘us’
-        </p>
+      <div class="row-fluid section1">
+          <section id="why">
+            <div class="span12 copy">
+              <p class="lead">
+                Why we exist
+              </p>
+              <p>
+                Clothes don’t fit
+              </p>
 
-        <p>
-          We want to feel fabulous
-        </p>
+              <p>
+                They are not made for ‘us’
+              </p>
 
-      </div>
-      <div class="span5 asset">
-        <p class="lead">
-          AURZA passion for change  (pictoral – maybe Gary can do?)
-        </p>
-        <p>
-          Real women 3d scan + choice of styling + choice of fit
-        </p>
+              <p>
+                We want to feel fabulous
+              </p>
 
-      </div>
-    </section>
-  </div>
-
-
-  <div class="row-fluid section1">
-    <section id="fit">
-      <div class="span5 offset1 copy">
-        <p class="lead">
-          The fit conundrum
-        </p>
-        <p>
-          Why clothes don’t fit
-        </p>
-        <p>
-          3d technology
-        </p>
-        <p>
-          Leveraging the technology
-          TECHY 3D VIDEO (maybe some humour?!)
-        </p>
-
-      </div>
-      <div class="span5 asset">
-        <p class="steps">
-          <img class="img-polaroid" src="http://placekitten.com/480/300">
-        </p>
-      </div>
-    </section>
-  </div>
-  <div class="row-fluid section1">
-    <section id="range">
-      <div class="span5 offset1 copy">
-        <p class="lead">
-          OUR RANGE
-        </p>
-        <div id="carousel" class="carousel slide">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="http://placekitten.com/g/300/300" width="480" height="480" alt="choose">
-                <div class="carousel-caption">
-                  <h4>Choose</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="http://placekitten.com/g/400/400" width="480" height="480" alt="customise">
-                <div class="carousel-caption">
-                  <h4>Customise</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="http://placekitten.com/g/320/320" width="480" height="480" alt="cherish">
-                <div class="carousel-caption">
-                  <h4>Cherish</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-              </div>
             </div>
-            <a class="left carousel-control" href="#carousel" data-slide="prev">&lsaquo;</a>
-            <a class="right carousel-control" href="#carousel" data-slide="next">&rsaquo;</a>
+            <div class="span4 asset">
+
+            </div>
+          </section>
+        </div>
+
+      <div class="row-fluid section1">
+          <section id="">
+            <!--</div>-->
+            <!--<div class="span5 asset">-->
+              <p class="lead">
+                AURZA passion for change  (pictoral – maybe Gary can do?)
+              </p>
+              <p>
+                Real women 3d scan + choice of styling + choice of fit
+              </p>
+
+            <!--</div>-->
+          </section>
+        </div>
+
+      <div class="row-fluid section1">
+        <section id="fit">
+          <div class="span12  copy">
+            <p class="lead">
+              The fit conundrum
+            </p>
+            <p>
+              Why clothes don’t fit
+            </p>
+            <p>
+              3d technology
+            </p>
+            <p>
+              Leveraging the technology
+              TECHY 3D VIDEO (maybe some humour?!)
+            </p>
+
           </div>
-      </div>
-    </section>
-
-    <div class="span5 asset">
-        <p class="lead">
-          HOW IT WORKS
-        </p>
-        <p>
-          SIMPLE EXPLANATION – MAYBE THE ICONS FROM THE
-
-          WEBSITE TO KEEP IT SIMPLE
-        </p>
-      </div>
-    </div>
-
-    <div class="row-fluid section1">
-      <section id="campaign">
-        <div class="span10 offset1 copy">
-          <p class="lead">
-            THE CAMPAIGN
-
-          </p>
-          <p>
-
-            We have Partnered with world leading pioneer in 3D scanning
-            and pattern marking and expert ateliers already
-            experienced in high end production for global market
-            Developed the design and sizing technology
-            Created initial samples of the range of dresses seen above
-          </p>
-          <p>
-
-            We need 30,000 USD to:
-          </p>
-          <p>
-            Invest in initial fabric Grade and sample the range
-          </p>
-          <p>
-            Photograph the designs for the final website
-          </p>
-        </div>
-      </section>
-    </div>
-    <div class="row-fluid section1">
-      <section id="how">
-        <div class="span10 offset1 copy">
-        <h1>How it works</h1>
-
-        <ul class="thumbnails">
-          <li class="span4">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/g/400/400" alt="choose">
-              <h3 class="steps">1. CHOOSE <i class="icon-arrow-right"> </i></h3>
-              <!--<p>Thumbnail caption...</p>-->
-            </div>
-          </li>
-          <li class="span4">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/g/300/300" alt="customise">
-              <h3 class="steps">2. CUSTOMISE <i class="icon-arrow-right"> </i></h3>
-              <!--<p>Thumbnail caption...</p>-->
-            </div>
-          </li>
-          <li class="span4">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/g/320/320" alt="cherish">
-              <h3 class="steps" >3. CHERISH</h3>
-              <!--<p>Thumbnail caption...</p>-->
-            </div>
-          </li>
-        </ul>
-        <p class="lead">
-          1. <em>CHOOSE</em> your favourite dress silhouette or ready to buy design
-        </p>
-        <p>
-          Change the neckline, sleeves, hem length and colour. Simply click on the
-          “Customise” button to start adding personal touches.
-        </p>
-        <p class="lead">
-          2.	Click <em>CUSTOMISE</em> to change anything you want or BUY to take it as it is.
-        </p>
-        <p>
-          Once you have paid through our secure payment gateway we will make your design
-          exclusively for you and send it to you within 3 weeks
-        </p>
-        <p class="lead">
-          3.	We hope that you will <em>CHERISH</em> your creation
-        </p>
-        <p>
-          But if it is not exactly how you dreamt it would be we will provide 300HKD
-          for local tailoring, remake it free of charge or offer a full refund if
-          returned unworn within 30 days of purchase*
-        </p>
-      </div>
+          <div class="span5 asset">
+            <p class="steps">
+              <img class="img-polaroid" src="http://placekitten.com/480/300">
+            </p>
+          </div>
         </section>
-    </div>
-    <div class="row-fluid section1">
-      <div class="span10 offset1 copy">
+      </div>
+
+      <div class="row-fluid section1">
+        <section id="range">
+          <div class="span12 copy">
+            <p class="lead">
+              OUR RANGE
+            </p>
+            <div id="carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                  <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img class="centre" src="./images/phase1/af7b94a0.shift.png" width="200" height="500" alt="Swing">
+                    <div class="carousel-caption">
+                      <h4>Shift</h4>
+                      <p>Cut for maximum style the shift skims the top of your body whilst flaring out to the
+                        thighs. Added detailing at the hem and sides gives an extra charm to this modern classic.</p>
+                      <p>Enhances: long legs, tall frames</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/0ecb4403.sheath.png" width="200" height="500" alt="Sheath">
+                    <div class="carousel-caption">
+                      <h4>Sheath</h4>
+                      <p>The impeccably tailored cut of the sheath dress flatters your curves by defining your
+                        waist and highlighting your calves to give you a perfect hourglass shape. </p>
+                      <p>Enhances - all the curvy bits</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/09c481f3.swoosh.png" width="200" height="500" alt="Loose Sheath">
+                    <div class="carousel-caption">
+                      <h4>Swoosh</h4>
+                      <p>Our classic sheath with perfectly positioned ruffles to draw the eyes to all the right
+                        places and flatter your middle area. </p>
+                      <p>Enhances – waist, creates hourglass shape</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/88117c62.swing.png" width="200" height="500" alt="Swing">
+                    <div class="carousel-caption">
+                      <h4>Swing</h4>
+                      <p>Our classic bodice with a full swing skirt for a dramatic Audrey Hepburn effect gives
+                        you curves in all the right places.</p>
+                      <p>Enhances – waist area (even if you don’t have one)</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/400d9ea6.flare.png" width="200" height="500" alt="Evening Swing">
+                    <div class="carousel-caption">
+                      <h4>Fit and Flare</h4>
+                      <p>Our classic fitted bodice with a hip skimming skirt for maximum curves and comfort.</p>
+                      <p>Enhances – gives you a slimmer silhouette</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/400d9ea6.flare.png" width="200" height="500" alt="Evening Swing">
+                    <div class="carousel-caption">
+                      <h4>Shirt</h4>
+                      <p>Casual, sophisticated and incredibly versatile for all occasions and body shapes.</p>
+                      <p>Enhances - bust</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="centre" src="./images/phase1/400d9ea6.flare.png" width="200" height="500" alt="Evening Swing">
+                    <div class="carousel-caption">
+                      <h4>Maxi Shirt</h4>
+                      <p>Our maxi version of the shirt dress is equally as effortless and flattering,
+                        whilst lengthening the body to create an elegant silhouette.</p>
+                      <p>Enhances – bust, upper body</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#carousel" data-slide="next">&rsaquo;</a>
+              </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="row-fluid section1">
+      <section id="campaign">
+      <div class="span12 asset">
         <p class="lead">
-          I’VE NEVER CUSTOMISED BEFORE!
+          THE CAMPAIGN
+
         </p>
         <p>
-          Don’t worry It’s very simple and if you aren’t happy with your garment
-          you can return it within 30 days or get it altered.
-        </p>
-      </div>
-    </div>
 
-    <div class="row-fluid section1">
-      <section id="about">
-        <div class="span10 offset1 copy">
-          <h1>About us</h1>
-          <p>
-            We founded AURZA out of a frustration of never being able to find the
-            clothes we really wanted. After having children clothes shopping had
-            lost its sparkle, left us deflated and there was always a compromise –
-            too short, too baggy, too expensive or just too plain.
-          </p>
-          <p>
-            So our aim is simple - to allow women like us to create extraordinary
-            clothes that reflect their own sense of style whilst both flattering
-            and fitting each of our unique bodies.
-          </p>
+          We have Partnered with world leading pioneer in 3D scanning
+          and pattern marking and expert ateliers already
+          experienced in high end production for global market
+          Developed the design and sizing technology
+          Created initial samples of the range of dresses seen above
+        </p>
+        <p>
+
+          We need 30,000 USD to:
+        </p>
+        <p>
+          Invest in initial fabric Grade and sample the range
+        </p>
+        <p>
+          Photograph the designs for the final website
+        </p>
         </div>
       </section>
     </div>
-  <div class="row-fluid section1">
-    <div class="span5 offset1 asset">
-      <img class="img-polaroid" src="http://placekitten.com/g/480/330">
 
     </div>
-    <div class="span5 copy">
 
-      <p>
-        We want everyone to be able to step out with confidence day and night,
-        feeling a million dollars and we know from personal experience that a
-        great outfit can make all the difference.
-      </p>
-      <p>
-        We are starting by offering utterly fabulous custom made dresses and
-        separates designed by us and perfected by you. You choose the style and
-        simply change the bodice, skirt, sleeves, length, fabric, trims and
-        accessories.
-      </p>
-      <p>
-        You can then decide whether our unique standard sizing
-        model based on 3d body scanning is right for you or whether you want
-        us to create a bespoke pattern just for you based on your measurements.
-      </p>
+    <div class="span3 pledges">
+      <div class="row-fluid linediv-b">
+        <div class="span12 pledge">
+          <p class="amount">Pledge USD 1</p>
+          <p class="backers"># backers</p>
+          <p class="desc">What you get..............</p>
+         </div>
+      </div>
+      <div class="row-fluid linediv-b">
+        <div class="span12 pledge">
+          <p class="amount">Pledge USD 10</p>
+          <p class="backers"># backers <em class="label">x available</em></p>
+          <p class="desc">What you get..............</p>
+        </div>
+      </div>
+      <div class="row-fluid linediv-b">
+        <div class="span12 pledge">
+          <p class="amount">Pledge USD 100</p>
+          <p class="backers"># backers</p>
+          <p class="desc">What you get..............</p>
+        </div>
+      </div>
+      <div class="row-fluid linediv-b">
+        <div class="span12 pledge">
+          <p class="amount">Pledge USD 1000</p>
+          <p class="backers"># backers</p>
+          <p class="desc">We love you!.</p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row-fluid section2">
-    <div class="span10 offset1 copy copy-right">
 
-      <p>
-        Once you have experienced custom from the comfort of your own home you
-        will always want to feel this good.
-      </p>
+  <div class="row-fluid">
+    <div class="span10 offset1">
+      <div class="row-fluid section1">
+        <section id="try">
+          <div class="span12 copy">
+            <h1>Try the design builder prototype</h1>
+          </div>
+        </section>
+      </div>
     </div>
   </div>
+
+
+
+  <div class="row-fluid">
+    <div class="span10 offset1">
+      <div class="row-fluid section1">
+          <section id="how">
+            <div class="span12 copy">
+              <h1>How it works</h1>
+
+              <ul class="thumbnails">
+                <li class="span4">
+                  <div class="thumbnail">
+                    <img src="http://placekitten.com/g/400/400" alt="choose">
+                    <h3 class="steps">1. CHOOSE <i class="icon-arrow-right"> </i></h3>
+                    <!--<p>Thumbnail caption...</p>-->
+                  </div>
+                </li>
+                <li class="span4">
+                  <div class="thumbnail">
+                    <img src="http://placekitten.com/g/300/300" alt="customise">
+                    <h3 class="steps">2. CUSTOMISE <i class="icon-arrow-right"> </i></h3>
+                    <!--<p>Thumbnail caption...</p>-->
+                  </div>
+                </li>
+                <li class="span4">
+                  <div class="thumbnail">
+                    <img src="http://placekitten.com/g/320/320" alt="cherish">
+                    <h3 class="steps" >3. CHERISH</h3>
+                    <!--<p>Thumbnail caption...</p>-->
+                  </div>
+                </li>
+              </ul>
+              <p class="lead">
+               1. <em>CHOOSE</em> your favourite dress silhouette or ready to buy design
+              </p>
+            <p>
+                Change the neckline, sleeves, hem length and colour. Simply click on the
+                “Customise” button to start adding personal touches.
+              </p>
+              <p class="lead">
+                2.	Click <em>CUSTOMISE</em> to change anything you want or BUY to take it as it is.
+              </p>
+              <p>
+                Once you have paid through our secure payment gateway we will make your design
+                exclusively for you and send it to you within 3 weeks
+              </p>
+              <p class="lead">
+                3.	We hope that you will <em>CHERISH</em> your creation
+              </p>
+              <p>
+                But if it is not exactly how you dreamt it would be we will provide 300HKD
+                for local tailoring, remake it free of charge or offer a full refund if
+                returned unworn within 30 days of purchase*
+              </p>
+            </div>
+        </section>
+      </div>
+
+      <div class="row-fluid section1">
+          <div class="span12 copy">
+            <p class="lead">
+              I’VE NEVER CUSTOMISED BEFORE!
+            </p>
+            <p>
+              Don’t worry It’s very simple and if you aren’t happy with your garment
+              you can return it within 30 days or get it altered.
+            </p>
+          </div>
+        </div>
+
+      <div class="row-fluid section1">
+          <section id="about">
+            <div class="span12 copy">
+              <h1>About us</h1>
+              <p>
+                We founded AURZA out of a frustration of never being able to find the
+                clothes we really wanted. After having children clothes shopping had
+                lost its sparkle, left us deflated and there was always a compromise –
+                too short, too baggy, too expensive or just too plain.
+              </p>
+              <p>
+                So our aim is simple - to allow women like us to create extraordinary
+                clothes that reflect their own sense of style whilst both flattering
+                and fitting each of our unique bodies.
+              </p>
+            </div>
+          </section>
+        </div>
+
+      <div class="row-fluid section1">
+        <div class="span6  asset">
+          <img class="img-polaroid" src="http://placekitten.com/g/480/330">
+
+        </div>
+        <div class="span6 copy">
+
+          <p>
+            We want everyone to be able to step out with confidence day and night,
+            feeling a million dollars and we know from personal experience that a
+            great outfit can make all the difference.
+          </p>
+          <p>
+            We are starting by offering utterly fabulous custom made dresses and
+            separates designed by us and perfected by you. You choose the style and
+            simply change the bodice, skirt, sleeves, length, fabric, trims and
+            accessories.
+          </p>
+          <p>
+            You can then decide whether our unique standard sizing
+            model based on 3d body scanning is right for you or whether you want
+            us to create a bespoke pattern just for you based on your measurements.
+          </p>
+        </div>
+      </div>
+
+      <div class="row-fluid section2">
+        <div class="span12 copy copy-right">
+
+          <p>
+            Once you have experienced custom from the comfort of your own home you
+            will always want to feel this good.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
   <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
@@ -453,11 +584,13 @@
 </div>
 </div>
 </body>
-<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+<script src="./vendor/scripts/startup%252Fcode%252Fjquery.js"></script>
+<script src="./vendor/scripts/startup%252Fcode%252Fbootstrap.js"></script>
+<!--<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>-->
+<!--<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>-->
 
-<!--<script type='text/javascript' src='http://code.jquery.com/jquery-1.6.4.js'></script>-->
-<script type='text/javascript' src="http://www.jplayer.org/latest/js/jquery.jplayer.min.js"></script>
+<script src="./vendor/scripts/jquery.jplayer.min.js"></script>
+<!--<script type='text/javascript' src="http://www.jplayer.org/latest/js/jquery.jplayer.min.js"></script>-->
 <script type='text/javascript' src="./scripts/ea9b7271.jplayer.js"></script>
 
 </html>
