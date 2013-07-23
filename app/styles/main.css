@@ -11,6 +11,10 @@
     .linediv-r {
         border-left: 1px white solid;
     }
+
+    .linediv-b {
+        border-bottom: 1px white solid;
+    }
 }
 
 /* Landscape phones and down */
@@ -54,7 +58,7 @@ p {
 
 /* Video pitch and Action */
 .pitch {
-    padding: 2.5% 0%;
+    padding: .5% 0% 0% 0%;
 }
 
 .order {
@@ -68,16 +72,36 @@ p {
     /*background-color: #899;*/
     /*background-color: #244;*/
     background-color: #666;
-    padding: 3% 0%;
+    padding: 1% 0%;
 }
 
-.video, .thermometer, .order, .social, .statistics {
+.video, .thermometer, .order, .social {
     text-align: center;
 }
 
-.statistics h3, .statistics p {
-    color: white;
+.statistics {
+    text-align: left;
 }
+
+.statistics h1, .statistics p {
+    color: white;
+    margin-bottom:0%;
+}
+
+.statistics .label {
+    margin-bottom:5%;
+    text-align: center;
+    /*padding-bottom:0%;*/
+}
+
+.thermometer.progress {
+    margin:5% 0;
+}
+
+.btn-pledge {
+    margin-bottom:10%;
+}
+
 
 /* Marketing Copy and Footer */
 .copy {
