@@ -14,6 +14,6 @@ Latest project Heroku [deployment](http://start-aurza.nostopbutton.com/)
 
 ## Want less yo-fun?
 
-Orignial project with [Noman](https://github.com/nostopbutton/bitstarter)
+Orignial project with "[no-man](https://github.com/nostopbutton/bitstarter)"
 
 
