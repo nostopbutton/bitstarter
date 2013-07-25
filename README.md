@@ -8,7 +8,7 @@ Crowdsourcing project for [Startup Engineering](https://class.coursera.org/start
 
 ## Deployment
 
-Latest project Heroku [deployment](http://bit-aurza.nostopbutton.com/)
+Latest project Heroku [deployment](http://start-aurza.nostopbutton.com/)
 
 <img src="https://nav.heroku.com/images/logos/logo.png">
 
