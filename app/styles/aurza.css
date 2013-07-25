@@ -125,3 +125,11 @@ img.centre {
     font-size: 14px;
     /*font-weight: 800;*/
 }
+
+.problem {
+    background-color: #ff8c93;
+}
+
+.solution {
+    background-color: #bdff89;
+}
