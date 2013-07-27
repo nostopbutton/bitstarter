@@ -1,0 +1,82 @@
+{
+  "default": {
+    "design": {
+      "skirt":    {"type": "skt", "id": "010", "fabric": "003", "trim": ""}
+    }
+    , "belt": {
+      "belt":     {"type": "blt", "id": "004", "fabric": "120"}
+    }
+    , "extras": {
+      "rosetta": {"type": "ext", "id": "000", "fabric": "011"}
+    }
+  }
+  , "strapline": "Your ultimate wardrobe essential, now impeccably tailored using a classic haute couture cut. "
+  , "description": [ "Experiment with colours and trims to define your style and add a belt to really enhance your waist. Perfect with killer heels for a timeless show stopping look."
+]
+  , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}]
+  , "trimFabricSets": [{"setId": "s-tr"}]
+  , "sizes": [10,12,14,16,18]
+  , "options": [
+  {
+    "option_name": "design"
+    , "active": "true"
+    , "label": "Basic Design"
+    , "parts": [
+
+    {
+      "part_name": "skirt"
+      , "type": "skt"
+      , "label": "Skirt"
+      , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}]
+      , "values": [
+        {"id": "011"}
+        , {"id": "012"}
+        , {"id": "014"}
+        , {"id": "021"}
+        , {"id": "022"}
+        , {"id": "024"}
+        , {"id": "051"}
+        , {"id": "052"}
+        , {"id": "071"}
+        , {"id": "072"}
+      ]
+      , "lengths": [1,2,4]
+      , "trim": false
+    }
+    ]
+  }
+  , {
+    "option_name": "belt"
+    , "label": "Belt"
+    , "parts": [
+      {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Ribbon"
+        , "fabricSets": [ {"setId": "x-pt"}]
+        , "values": [
+          {"id": "002"}
+        ]
+      }
+      , {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Fabric"
+        , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-sq"}]
+        , "values": [
+          {"id": "003"}
+        ]
+      }
+      , {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Obi"
+        , "active": "true"
+        , "fabricSets": [  {"setId": "x-fl"}]
+        , "values": [
+          {"id": "004"}
+        ]
+      }
+    ]}
+]
+}

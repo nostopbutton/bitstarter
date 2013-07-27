@@ -1,0 +1,16 @@
+<div class="container-fluid fabric-group">
+    <div class="row-fluid align-center fabric-header">
+        <!--<span class="span12 ">-->
+            {{fabricSet.setName}}
+        <!--</span>-->
+    </div>
+    <div class="row-fluid align-center">
+        <!--<span class="span12  align-center">-->
+            <div ng-switch on="isTrim" >
+                <div draw-trim-fabrics ng-switch-when="true" selection="fabricSet" selected-option="selectedOption"></div>
+                <div draw-fabrics ng-switch-default selection="fabricSet" selected-option="selectedOption"></div>
+            </div>
+
+        <!--</span>-->
+    </div>
+</div>

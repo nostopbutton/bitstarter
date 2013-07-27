@@ -1,0 +1,74 @@
+[
+  {
+    "itemId": "sh-1"
+    , "catId": "dresses"
+    , "silId": "swoosh"
+    , "name": "Swoosh - Red"
+    , "img": "sheath"
+    , "desc": "It's lovely, you know it is... dah dha"
+    , "price": 1500
+    , "sizes": [10,12,14,16,18]
+    , "design": {
+          "design": {
+            "neckline":   {"type": "nek", "id": "009", "fabric": "003"}
+            , "skirt":    {"type": "skt", "id": "030", "fabric": "003", "trim": ""}
+            , "sleeves":  {"type": "slv", "id": "001", "fabric": "003"}
+          }
+          , "belt": {
+            "belt":     {"type": "blt", "id": "002", "fabric": ""}
+          }
+          , "extras": {
+            "peplum": {"type": "ext", "id": "000", "fabric": "003"}
+            , "rosetta": {"type": "ext", "id": "000", "fabric": "011"}
+          }
+      }
+    }
+  , {
+  "itemId": "sh-2"
+  , "catId": "dresses"
+  , "silId": "sheath"
+  , "name": "Sheath - Evening Dress"
+  , "img": "evening sheath"
+  , "desc": "It's lovely, you know it is... dah dha"
+  , "price": 2500
+  , "sizes": [10,12,14,16,18]
+  , "design": {
+      "design": {
+        "neckline":   {"type": "nek", "id": "009", "fabric": "010"}
+        , "skirt":    {"type": "skt", "id": "030", "fabric": "010", "trim": ""}
+        , "sleeves":  {"type": "slv", "id": "001", "fabric": "010"}
+      }
+      , "belt": {
+        "belt":     {"type": "blt", "id": "004", "fabric": "121"}
+      }
+      , "extras": {
+        "peplum": {"type": "ext", "id": "000", "fabric": "003"}
+        , "rosetta": {"type": "ext", "id": "000", "fabric": "011"}
+      }
+    }
+  }
+  , {
+    "itemId": "sw-1"
+    , "catId": "dresses"
+    , "silId": "swing"
+    , "name": "Swing - Violet"
+    , "img": "swing"
+    , "desc": "It's lovely, you know it is... dah dha"
+    , "price": 999
+    , "sizes": [10,12,14,16,18]
+    , "design": {
+      "design": {
+        "neckline":   {"type": "nek", "id": "002", "fabric": "005"}
+        , "skirt":    {"type": "skt", "id": "030", "fabric": "005", "trim": ""}
+        , "sleeves":  {"type": "slv", "id": "001", "fabric": "005"}
+      }
+      , "belt": {
+        "belt":     {"type": "blt", "id": "002", "fabric": "004"}
+      }
+      , "extras": {
+        "peplum": {"type": "ext", "id": "000", "fabric": "003"}
+        , "rosetta": {"type": "ext", "id": "003", "fabric": "004"}
+      }
+    }
+  }
+]

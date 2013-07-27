@@ -1,0 +1,33 @@
+[
+  {
+    "id": "skt-012", "name": "pencil - short"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "skt-011", "name": "pencil - knee"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "skt-010", "name": "pencil - long"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "skt-014", "name": "pencil - back ruffle"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "skt-015", "name": "pencil - full ruffle"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "skt-016", "name": "pencil - maxi ruffle"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "trimFabricSet": "dressTrims"
+  }
+
+]

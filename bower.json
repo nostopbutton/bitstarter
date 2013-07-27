@@ -2,8 +2,13 @@
   "name": "bitstarter",
   "version": "0.0.0",
   "dependencies": {
-    "modernizr": "~2.6.2",
-    "jquery": "~1.9.1"
-  },
-  "devDependencies": {}
+    "angular": "*"
+    , "es5-shim": "~2.0.11"
+    , "modernizr": "~2.6.2"
+    , "jquery": "~1.9.1"
+    , "angular-resource": "~1.0.6"
+    , "angular-bootstrap": "~0.3.0"
+  }
+  , "devDependencies": {
+  }
 }

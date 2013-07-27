@@ -1,0 +1,95 @@
+[
+  { "setId": "s-vc"
+    , "setName": "Viscose Crepe"
+    , "type": "Standard"
+    , "description": "blurb about Viscose Crepe"
+    , "fabrics":
+      [
+        { "fabId": "003", "fabName" : "red"}
+        , { "fabId": "004", "fabName" : "violet"}
+        , { "fabId": "005", "fabName" : "dirty blue"}
+        , { "fabId": "007", "fabName" : "taupe"}
+        , { "fabId": "008", "fabName" : "cream"}
+        , { "fabId": "010", "fabName" : "mint"}
+        , { "fabId": "011", "fabName" : "black"}
+        , { "fabId": "012", "fabName" : "grey"}
+      ]
+  }
+  ,{ "setId": "s-tr"
+    , "setName": "Viscose Crepe for Trim"
+    , "type": "Standard"
+    , "description": "blurb about Viscose Crepe"
+    , "fabrics":
+    [
+        { "fabId": "011", "fabName" : "black"}
+    ]
+  }
+  ,{ "setId": "trm2"
+  , "setName": "Viscose Crepe"
+  , "type": "Standard"
+  , "description": "blurb about Viscose Crepe"
+  , "fabrics":
+    [
+      { "fabId": "003", "fabName" : "red"}
+      , { "fabId": "004", "fabName" : "violet"}
+      , { "fabId": "005", "fabName" : "dirty blue"}
+      , { "fabId": "007", "fabName" : "taupe"}
+      , { "fabId": "008", "fabName" : "cream"}
+      , { "fabId": "010", "fabName" : "mint"}
+      , { "fabId": "011", "fabName" : "black"}
+      , { "fabId": "012", "fabName" : "grey"}
+    ]
+}
+  , { "setId": "p-sk"
+    , "setName": "Silk"
+    , "type": "Premium"
+    , "fabrics":
+    [
+      { "fabId": "080", "fabName" : "black"}
+      , { "fabId": "081", "fabName" : "cream"}
+      , { "fabId": "083", "fabName" : "beige"}
+      , { "fabId": "085", "fabName" : "jade"}
+      , { "fabId": "086", "fabName" : "charcol grey"}
+      , { "fabId": "087", "fabName" : "midnight blue"}
+      , { "fabId": "088", "fabName" : "fuscia"}
+      , { "fabId": "089", "fabName" : "red"}
+    ]
+  }
+  , { "setId": "x-fl"
+    , "setName": "Faux leather"
+    , "type": "Special"
+    , "fabrics":
+      [
+        { "fabId": "120", "fabName" : "black"}
+        , { "fabId": "121", "fabName" : "cream"}
+        , { "fabId": "122", "fabName" : "grey"}
+
+      ]
+  }
+  , { "setId": "x-sq"
+    , "setName": "Sequins"
+    , "type": "Special"
+    , "fabrics":
+      [
+        { "fabId": "135", "fabName" : "black matt"}
+        , { "fabId": "136", "fabName" : "coffee sparkle"}
+        , { "fabId": "137", "fabName" : "snow blizzard"}
+        , { "fabId": "138", "fabName" : "white matt"}
+      ]
+  }
+  , { "setId": "x-pt"
+  , "setName": "Polyester Trim"
+  , "type": "Special"
+  , "fabrics":
+    [
+      { "fabId": "160", "fabName" : "red"}
+      , { "fabId": "161", "fabName" : "violet"}
+      , { "fabId": "162", "fabName" : "dirty blue"}
+      , { "fabId": "164", "fabName" : "taupe"}
+      , { "fabId": "165", "fabName" : "cream"}
+      , { "fabId": "167", "fabName" : "mint"}
+      , { "fabId": "168", "fabName" : "black"}
+      , { "fabId": "169", "fabName" : "grey"}
+    ]
+}
+]

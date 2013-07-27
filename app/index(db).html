@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Aurza- experience custom</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <meta name="google-site-verification" content="pUkTUYdu_NIAmwwQJcRay-D7ctXNv0hB-viL6HFOrhw" />
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!--TODO- why are these not compiled into main.css?? -->
+        <link rel="stylesheet" href="styles/db-parts-sprite.css">
+        <link rel="stylesheet" href="styles/db-icons-sprite.css">
+        <link rel="stylesheet" href="styles/silhouette-sprite.css">
+        <link rel="stylesheet" href="styles/items-sprite.css">
+        <!-- Added by me -->
+        <link rel="stylesheet" href="styles/theme.css">
+        <!-- TODO - should extract footer-->
+        <link rel="stylesheet" href="styles/app.css"/>
+        <link rel="stylesheet" href="styles/dont-panic.css"/>
+        <!-- endbuild -->
+
+    </head>
+    <body ng-app="panicApp">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
+            today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
+            experience this site.</p>
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+        <script src="components/es5-shim/es5-shim.js"></script>
+        <script src="components/json3/lib/json3.min.js"></script>
+        <![endif]-->
+
+        <div ng-include="'views/header.html'"></div>
+        <div ng-view></div>
+        <div ng-include="'views/footer.html'"></div>
+
+        <!-- TODO just used for Google Analytics convertPathToQueryString - can we remove? -->
+        <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+
+        <script src="components/angular/angular.min.js"></script>
+        <script src="components/angular-resource/angular-resource.min.js"></script>
+        <!--<script src="components/angular-cookies/angular-cookies.js"></script>-->
+        <script src="components/angular-sanitize/angular-sanitize.min.js"></script>
+        <!--<script src="components/angular-ui/build/angular-ui.min.js"></script>-->
+        <script src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <!-- TODO Do I need this?-->
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+
+        <!-- build:js scripts/yo.js -->
+        <script src="scripts/app/app.js"></script>
+        <script src="scripts/app/plugins.js"></script>
+        <script src="scripts/services/analytics.js"></script>
+        <script src="scripts/services/referenceDataServices.js"></script>
+        <script src="scripts/directives/designBuildDirectives.js"></script>
+        <script src="scripts/filters/designBuildFilters.js"></script>
+        <script src="scripts/controllers/Controllers.js"></script>
+        <script src="scripts/controllers/HomeCarousel.js"></script>
+        <script src="scripts/controllers/StaticPage.js"></script>
+        <script src="scripts/controllers/DressCollection.js"></script>
+        <script src="scripts/controllers/Purchase.js"></script>
+        <script src="scripts/controllers/Silhouette.js"></script>
+        <script src="scripts/controllers/RangeDetails.js"></script>
+        <script src="scripts/controllers/DesignBuild.js"></script>
+        <!--<script src="scripts/controllers/NewDesignBuild.js"></script>-->
+        <script src="scripts/controllers/SizingCtrl.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

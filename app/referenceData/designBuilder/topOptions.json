@@ -1,0 +1,56 @@
+[
+  {
+    "id": "nek-001", "name": "bateau"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-002", "name": "scoop"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-003", "name": "V slit"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-006", "name": "V tailored wrap"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-011", "name": "plunge"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-009", "name": "scoop doloman"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-008", "name": "scoop doloman long"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-007", "name": "V doloman "
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+  , {
+    "id": "nek-010", "name": "tied asymetrical"
+    , "fabricSet": [ "p-c", "s-c", "x-l", "x-s"]
+    , "sleeves": [ "slv-000", "slv-001", "slv-002", "slv-006", "slv-007", "slv-008", "slv-011"]
+    , "trimFabricSet": "dressTrims"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "default": {
+    "design": {
+      "neckline":   {"type": "nek", "id": "003", "fabric": "003"}
+      , "skirt":    {"type": "skt", "id": "070", "fabric": "003", "trim": ""}
+      , "sleeves":  {"type": "slv", "id": "009", "fabric": "003"}
+    }
+    , "belt": {
+      "belt":     {"type": "blt", "id": "002", "fabric": "012"}
+    }
+    , "extras": {
+      "peplum": {"type": "ext", "id": "000", "fabric": "003"}
+      , "rosetta": {"type": "ext", "id": "000", "fabric": "011"}
+    }
+  }
+  , "strapline": "Your ultimate wardrobe essential, now impeccably tailored using a classic haute couture cut. "
+  , "description": [ "Experiment with colours and trims to define your style and add a belt to really enhance your waist. Perfect with killer heels for a timeless show stopping look."
+]
+  , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}, {"setId": "x-sq"}]
+  , "trimFabricSets": [ {"setId": "p-c"}, {"setId": "x-fl"}, {"setId": "x-sq"}]
+  , "sizes": [10,12,14,16,18]
+  , "options": [
+  {
+    "option_name": "design"
+    , "active": "true"
+    , "label": "Basic Design"
+    , "parts": [
+    {
+      "part_name": "neckline"
+      , "type": "nek"
+      , "active": "true"
+      , "label": "Neckline"
+      , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}, {"setId": "x-sq"}]
+      , "values": [
+        {"id": "001"}
+        , {"id": "002"}
+        , {"id": "003"}
+        , {"id": "004"}
+      ]
+      , "trim": true
+      , "trimFabricSets": [ {"setId": "trm"}]
+    }
+    ,{
+      "part_name": "sleeves"
+      , "type": "slv"
+      , "label": "Sleeves"
+      , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}, {"setId": "x-sq"}]
+      , "values": [
+        {"id": "015"},
+        {"id": "001"},
+        {"id": "006"},
+        {"id": "009"}
+      ]
+      , "trim": true
+      , "trimFabricSets": [ {"setId": "trm"}]
+    }
+    ,{
+      "part_name": "skirt"
+      , "type": "skt"
+      , "label": "Skirt"
+      , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}, {"setId": "x-sq"}]
+      , "values": [
+        {"id": "071"},
+        {"id": "072"}
+      ]
+    }
+    ]
+  }
+  , {
+    "option_name": "belt"
+    , "label": "Belt"
+    , "parts": [
+      {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Ribbon"
+        , "fabricSets": [ {"setId": "s-vc"}]
+        , "values": [
+          {"id": "002"}
+        ]
+      }
+      , {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Fabric"
+        , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-sq"}]
+        , "values": [
+          {"id": "003"}
+        ]
+      }
+      , {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Obi"
+        , "active": "true"
+        , "fabricSets": [  {"setId": "x-fl"}]
+        , "values": [
+          {"id": "004"}
+        ]
+      }
+    ]}
+  , {
+    "option_name": "extras"
+    , "label": "Extras"
+    , "parts": [
+      {
+      "part_name": "peplum"
+      , "type": "ext"
+      , "label": "Peplum"
+      , "active": "true"
+      , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}]
+      , "values": [
+        {"id": "000"}
+        , {"id": "002"}
+      ]
+    }
+    , {
+        "part_name": "rosetta"
+        , "type": "ext"
+        , "label": "Rosetta"
+        , "fabricSets": [ {"setId": "s-vc"}, {"setId": "x-fl"}]
+        , "values": [
+          {"id": "000"}
+          , {"id": "003"}
+        ]
+      }
+  ]}
+]
+}

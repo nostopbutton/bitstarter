@@ -1,0 +1,60 @@
+bodice	bod
+skirt	skt
+sleeves	slv
+trim    trm
+extras  ext
+
+
+bod_001_000	0..1
+slv_000_000	0..1
+skt_003_000	0..1
+blt_001_000	0..*
+trm_001_111	0..*
+ssz_012
+csz_012_014
+
+Fabrics
+
+      {"id": "001",     "label": "red"},
+      {"id": "002",     "label": "blue"},
+      {"id": "003",     "label": "black"},
+      {"id": "004",     "label": "green"},
+      {"id": "005",     "label": "jade"},
+      {"id": "006",     "label": "midnightblue"},
+      {"id": "007",     "label": "violet"},
+      {"id": "008",     "label": "biege"},
+
+
+Only attributes with scope "Global",
+input type "Dropdown"
+and Use To Create Configurable Product "Yes" are available.
+{{block type="catalog/product_list" category_id="4" template="catalogue/product/list.phtml"}}
+
+
+categories.json
+
+
+designCatalogue.json - define categories and design silhouettes
+* category
+** design silhouettes
+
+Powers:
+- lists of categories
+- silhouettes page
+
+
+dressCollection.json
+
+labels.json - lookup description for design builder codes
+
+
+clothing
+- Catalogue
+- - Categories
+- - - Silhouettes
+- - - - Item
+
+
+
+
+
