@@ -398,12 +398,12 @@ module.exports = function (grunt) {
         'clean:dist',
         'useminPrepare',
         'concurrent:dist',
-//        'concat',// SWAPPED
+        'concat',// SWAPPED
         'cssmin',// SWAPPED
 //        'uglify',
         'copy',
 //      'cdnify',
-//      'ngmin',
+      'ngmin',
         'rev',
         'usemin'
       , 'install-dependencies'

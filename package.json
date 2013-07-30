@@ -31,6 +31,8 @@
     "grunt-svgmin": "~0.1.0",
     "grunt-concurrent": "~0.1.0",
     "matchdep": "~0.1.1",
+    "grunt-google-cdn": "~0.1.4",
+    "grunt-ngmin": "~0.0.2",
     "grunt-install-dependencies": "~0.1.0"
   },
   "engines": {
