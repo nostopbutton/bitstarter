@@ -108,15 +108,15 @@ table tr a {
     padding: 0 5px;
 }
 
-.left {
+/*.left {*/
     /*position:relative;*/
-    left:-50px;
-}
+    /*left:-50px;*/
+/*}*/
 
-.right {
+/*.right {*/
     /*position:relative;*/
-    left:50px;
-}
+    /*left:50px;*/
+/*}*/
 
 .slv {
     z-index:1;

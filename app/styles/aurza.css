@@ -24,12 +24,21 @@
 
 .dict.box {
     padding: .5%;
-    background-color: #eee;
-    border-color: white;
-    border-style: double;
-    border-width: 10px;
+    background-color: white;
+    border-color: #eee;
+    border-style:  solid;
+    border-width: 5px;
+    margin-bottom:10px;
 }
-
+.dict.box.inner {
+    /*padding: .5%;*/
+    color: #533;
+    background-color: #eee;
+    border-color: #eee;
+    /*border-style:  double;*/
+    border-width: 0px;
+    margin-bottom:0px;
+}
 p.dict {
     text-align: left
 }
@@ -52,16 +61,27 @@ p.dict.def {
     /*line-height: 30px;*/
 }
 
-.faux-vid {
-    /*border:3px;*/
-    /*border-style:double;*/
-    border-color: #eee;
+.placeholder {
+    border-color: white;
     padding: 0.5%;
-    /*background-color: #eee;*/
-    /*border-color: white;*/
+    background-color: #eee;
+    border-width: 8px;
+}
+
+.placeholder.image {
+    font-color: #533;
+    font-style:italic;
+    background-color: #eee;
+    border-color: white;
+    border-style: double;
+}
+.placeholder.video {
+    font-color: #533;
+    font-style:italic;
+    background-color: white;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
-    /*background-image:;*/
 }
 
 p.tags {
@@ -86,7 +106,22 @@ p.tags {
     text-align: center;
 }
 
+.left-title {
+    float:left;
+    text-align: center;
+    padding: 2% 5%;
+}
 
+.right-title {
+    float:right;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.clear-title {
+    clear:both;
+    text-align: center;
+}
 
 img.centre {
     display: block;
@@ -132,4 +167,26 @@ img.centre {
 
 .solution {
     background-color: #ecffdc;
+}
+
+/*.item {*/
+    /*min-height: 600px;*/
+/*}*/
+.carousel-caption {
+    height: 170px;
+}
+
+
+.carousel-caption .range {
+    font-size: 12px;
+}
+
+.carousel-control.item {
+    height:20px;
+    width:20px;
+    font-weight:300;
+    font-size: 20px;
+    line-height:20px;
+    margin-top:0px;
+    top:50%;
 }

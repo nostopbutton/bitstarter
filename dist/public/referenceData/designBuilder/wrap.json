@@ -1,0 +1,90 @@
+{
+  "default": {
+    "design": {
+      "neckline":   {"type": "nek", "id": "013", "fabric": "080"}
+      , "skirt":    {"type": "skt", "id": "090", "fabric": "088", "trim": ""}
+      , "sleeves":  {"type": "slv", "id": "013", "fabric": "003"}
+    }
+    , "belt": {
+      "belt":     {"type": "blt", "id": "004", "fabric": "120"}
+    }
+    , "extras": {
+      "peplum": {"type": "ext", "id": "000", "fabric": "003"}
+      , "rosetta": {"type": "ext", "id": "000", "fabric": "011"}
+    }
+  }
+  , "strapline": "Your ultimate wardrobe essential, now impeccably tailored using a classic haute couture cut. "
+  , "description": [ "Experiment with colours and trims to define your style and add a belt to really enhance your waist. Perfect with killer heels for a timeless show stopping look."
+]
+  , "fabricSets": [ {"setId": "s-c"}, {"setId": "x-l"}, {"setId": "x-sq"}]
+  , "trimFabricSets": [{"setId": "s-tr"}]
+  , "sizes": [10,12,14,16,18]
+  , "options": [
+  {
+    "option_name": "design"
+    , "active": "true"
+    , "label": "Basic Design"
+    , "parts": [
+    {
+      "part_name": "neckline"
+      , "type": "nek"
+      , "active": "true"
+      , "label": "Neckline"
+      , "fabricSets": [ {"setId": "p-sk"}]
+      , "values": [
+        {"id": "013"}
+    ]
+      , "trim": true
+      , "trimFabricSets": [ {"setId": "trm"}]
+    }
+    ,{
+      "part_name": "sleeves"
+      , "type": "slv"
+      , "label": "Sleeves"
+      , "fabricSets": [ {"setId": "p-sk"}, {"setId": "x-sq"}]
+      , "values": [
+        {"id": "000"},
+        {"id": "013"},
+        {"id": "014"}
+      ]
+      , "trim": false
+    }
+    ,{
+      "part_name": "skirt"
+      , "type": "skt"
+      , "label": "Skirt"
+      , "fabricSets": [ {"setId": "p-sk"}]
+      , "values": [
+        {"id": "091"},
+        {"id": "092"},
+        {"id": "094"}
+      ]
+      , "trim": false
+    }
+  ]
+  }
+  , {
+    "option_name": "belt"
+    , "label": "Belt"
+    , "parts": [
+      {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Gathered Waistband"
+        , "fabricSets": [ {"setId": "p-sk"}]
+        , "values": [
+        {"id": "001"}
+      ]
+      }
+      , {
+        "part_name": "belt"
+        , "type": "blt"
+        , "label": "Fabric"
+        , "fabricSets": [ {"setId": "p-sk"}]
+        , "values": [
+          {"id": "006"}
+        ]
+      }
+    ]}
+]
+}

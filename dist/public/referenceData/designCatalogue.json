@@ -1,0 +1,121 @@
+[
+      {
+        "catId": "dresses"
+        , "catName": "Dresses"
+        , "designs" : [
+          {
+            "desId": "sheath-fitted"
+            , "desName": "Fitted Sheath"
+            , "longName": "Fitted Sheath Dress"
+            , "shortDesc": "Our impeccably tailored classic sheath creates a perfect silhouette for all occasions"
+            , "price": 1600
+            , "silhouetteImage": "pat-301"
+          }
+          , {
+            "desId": "swing-fitted"
+            , "desName": "Swing"
+            , "longName": "Swoosh Dress"
+            , "blurb": "Our classic sheath with perfectly positioned ruffles to draw the eyes to all the right places."
+            , "price": 1600
+            , "silhouetteImage": "pat-302swing"
+          }
+          , {
+            "desId": "swoosh"
+            , "desName": "Swoosh"
+            , "longName": "Swoosh Dress"
+            , "blurb": "Our classic sheath with perfectly positioned ruffles to draw the eyes to all the right places."
+            , "price": 1600
+            , "silhouetteImage": "pat-303"
+          }
+          , {
+            "desId": "flare-fitted"
+            , "desName": "Flare"
+            , "longName": "Wrap Dress"
+            , "blurb": "Perfectly tailored around the chest and waist to drape beautifully"
+            , "price": 2000
+            , "silhouetteImage": "pat-302flare"
+          }
+          , {
+          "desId": "shift-loose"
+          , "desName": "Loose Shift"
+          , "longName": "Loose Shift Dress"
+          , "blurb": "Effortless elegance with a straight lined shift that draws no attention to the waist"
+          , "price": 2000
+          , "silhouetteImage": "pat-202"
+          }
+          , {
+          "desId": "shirt"
+          , "desName": "Shirt"
+          , "longName": "Shirt Dress"
+          , "blurb": "Sophisticated and incredibly versatile for all occasions and body shapes"
+          , "price": 2000
+          , "silhouetteImage": "pat-203"
+          }
+        , {
+          "desId": "shirt"
+          , "desName": "Shirt"
+          , "longName": "Shirt Dress"
+          , "blurb": "Sophisticated and incredibly versatile for all occasions and body shapes"
+          , "price": 2000
+          , "silhouetteImage": "pat-203maxi"
+        }
+        ]
+      },
+      {
+        "catId": "skirts"
+        , "catName": "Skirts"
+        , "designs" : [
+        {
+          "desId": "skirt-pencil"
+          , "desName": "Pencil Skirt"
+          , "longName": "Pencil Skirt"
+          , "blurb": "Simple lines that are chic and glamorous and never out of style"
+          , "price": 600
+          , "silhouetteImage": "pat-101pencil"
+        }
+        , {
+          "desId": "skirt-swing"
+          , "desName": "Swing Skirt"
+          , "longName": "Swing Skirt"
+          , "blurb": "A fuller skirt to glide when you walk pulled tight at the waist for maximum curves"
+          , "price": 600
+          , "silhouetteImage": "pat-101swing"
+        }
+        , {
+          "desId": "skirt-flare"
+          , "desName": "Flare Skirt"
+          , "longName": "Flare Skirt"
+          , "blurb": "A pencil skirt with a kick to compliment your hips"
+          , "price": 600
+          , "silhouetteImage": "pat-101flare"
+        }
+        ]
+      }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

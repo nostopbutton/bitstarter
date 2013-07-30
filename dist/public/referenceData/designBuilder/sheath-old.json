@@ -1,0 +1,110 @@
+{
+  "default": {
+      "neckline": {
+          "type": "nek-001", "fabric": "001"
+      }
+      , "skirt": {
+          "type": "skt-001", "fabric": "001"
+      }
+      , "sleeves": {
+          "type": "slv-001", "fabric": "001"
+      }
+      , "trim": {
+          "type": "trm-000", "fabric": "001"
+      }
+      , "extas": {
+        "type": "ext-001", "fabric": "003"
+      }
+   }
+  , "strapline": "use the buttons below to customise your dress"
+  , "description": [  "Cupcake ipsum dolor sit. Amet brownie brownie. Jelly beans tootsie roll gummi bears tootsie roll pudding."
+    , "Wypas muffin cupcake. Cheesecake ice cream halvah tiramisu. Sugar plum gummies caramels powder cheesecake."
+    , "Pastry soufflé pie donut croissant apple pie powder. Caramels sweet dessert. Liquorice chocolate cake chupa chups fruitcake cheesecake powder wypas pudding lollipop."
+    , "Ice cream carrot cake jujubes biscuit faworki. Bonbon icing wypas icing. Pastry jelly chocolate brownie gingerbread jelly beans candy canes. Wafer bear claw jelly pudding marzipan jelly-o gummi bears jelly-o."
+    , "Marshmallow lollipop bear claw macaroon pastry candy. Chocolate bar jelly beans jujubes fruitcake. Chocolate cake wafer icing cake."
+  ]
+  , "views": ["view-front", "view-left", "view-back", "view-right"]
+  , "sizes": [10,12,14,16,18]
+  , "options": [
+    {
+      "opt_name": "neckline",
+      "active": "true",
+      "opt_label": "Neckline",
+      "opt_values": [
+          {"type": "nek-001"},
+          {"type": "nek-002"},
+          {"type": "nek-003"},
+          {"type": "nek-004"},
+          {"type": "nek-005"},
+          {"type": "nek-006"},
+          {"type": "nek-007"},
+          {"type": "nek-008"}
+        ],
+      "opt_fabrics": [
+        {"type": "001"},
+        {"type": "002"},
+        {"type": "003"},
+        {"type": "004"}
+      ]},
+    {
+      "opt_name": "skirt",
+      "opt_label": "Skirt",
+      "opt_values": [
+        {"type": "skt-001"},
+        {"type": "skt-002"},
+        {"type": "skt-003"},
+        {"type": "skt-004"},
+        {"type": "skt-005"},
+        {"type": "skt-006"}
+      ],
+      "opt_fabrics": [
+        {"type": "001"},
+        {"type": "002"},
+        {"type": "003"},
+        {"type": "004"}
+      ]},
+    {
+      "opt_name": "sleeves",
+      "opt_label": "Sleeves",
+      "opt_values": [
+        {"type": "slv-000"},
+        {"type": "slv-001"},
+        {"type": "slv-002"},
+        {"type": "slv-003"},
+        {"type": "slv-004"},
+        {"type": "slv-005"},
+        {"type": "slv-006"},
+        {"type": "slv-007"}
+      ],
+      "opt_fabrics": [
+        {"type": "001"},
+        {"type": "002"},
+        {"type": "003"},
+        {"type": "004"}
+      ]},
+    {
+      "opt_name": "trim",
+      "opt_label": "Trim",
+      "opt_values": [
+        {"type": "trm-000"},
+        {"type": "trm-001"}
+      ],
+      "opt_fabrics": [
+        {"type": "001"},
+        {"type": "002"},
+        {"type": "003"},
+        {"type": "004"}
+      ]},
+    {
+      "opt_name": "extras",
+      "opt_label": "Extras",
+      "opt_values": [
+        {"type": "ext-000"},
+        {"type": "ext-001"}
+      ],
+      "opt_fabrics": [
+        {"type": "001"},
+        {"type": "004"}
+      ]}
+  ]
+}

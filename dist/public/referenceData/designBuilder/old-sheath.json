@@ -1,0 +1,87 @@
+{
+  "default": {
+      "neckline": {"type": "nek", "id": "001", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+    , "skirt":    {"type": "skt", "id": "010", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+    , "sleeves":  {"type": "slv", "id": "001", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+    , "trim":     {"type": "trm", "id": "001", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+    , "belt":     {"type": "blt", "id": "000", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+    , "rosetta":  {"type": "ext", "id": "000", "fabric": "003", "trim": [{"type":"", "fabric":""}]}
+  }
+  , "strapline": "Your ultimate wardrobe essential, now impeccably tailored using a classic haute couture cut. "
+  , "description": [ "Experiment with colours and trims to define your style and add a belt to really enhance your waist. "
+  , "Perfect with killer heels for a timeless show stopping look."
+  ]
+  , "sizes": [10,12,14,16,18]
+  , "options": [
+    {
+      "part_name": "neckline",
+      "type": "nek",
+      "active": "true",
+      "label": "Neckline",
+      "values": [
+        {"id": "001"},
+        {"id": "002"},
+        {"id": "003"},
+        {"id": "006"}
+      ]
+    },
+    {
+      "part_name": "sleeves",
+      "type": "slv",
+      "label": "Sleeves",
+      "values": [
+        {"id": "000"},
+        {"id": "001"},
+        {"id": "002"},
+        {"id": "006"},
+        {"id": "007"},
+        {"id": "009"},
+        {"id": "012"}
+      ]
+    },
+    {
+      "part_name": "skirt",
+      "type": "skt",
+      "label": "Skirt",
+      "values": [
+        {"id": "012"},
+        {"id": "011"},
+        {"id": "010"},
+        {"id": "032"},
+        {"id": "031"},
+        {"id": "030"}
+      ]
+    },
+    {
+      "part_name": "belt",
+      "type": "ext",
+      "label": "Belt",
+      "values": [
+        {"id": "008"},
+        {"id": "009"},
+        {"id": "002"},
+        {"id": "003"}
+      ]
+    },
+    {
+      "part_name": "ruffle",
+      "type": "ext",
+      "label": "Ruffle",
+      "values": [
+        {"id": "007"},
+        {"id": "004"},
+        {"id": "005"}
+      ]
+    },
+    {
+      "part_name": "rosetta",
+      "type": "ext",
+      "label": "Rosetta",
+      "values": [
+        {"id": "011"}
+      ]
+    }
+  ]
+  , "fabrics": ["003", "004", "005", "006", "007", "008", "009", "010"
+      , "011", "012", "013", "120", "121", "122", "123", "007"]
+}

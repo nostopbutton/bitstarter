@@ -1,24 +1,29 @@
 <div id="designBuildView" class="container">
     <div class="container-fluid">
         <div class="row-fluid">
+          <!--<div class="span10 offset1">-->
 
-            <div id="view_dress_panel" class="span5">
-                <div class="container-fluid">
-                    <div class="row-fluid dress">
+          <div id="view_dress_panel" class="span4">
+                <!--<div class="container-fluid">-->
+                    <div class="row-fluid">
+                      <div class="dress">
                             <!--<div class=" pic body db-parts-sprite model-front"></div>-->
                             <img ng-src="images/parts/whole body.png" class="pic body">
                             <div draw-dress dress="form.design"></div>
                             <div draw-trim dress="form.design"></div>
                             <div draw-dress dress="form.belt"></div>
                             <div draw-dress dress="form.extras"></div>
+                        </div>
                     </div>
-                    <div class="row-fluid purchase big-buy-button">
+                    <div class="row-fluid ">
+                      <div class="purchase big-buy-button">
                         <a class="btn" id="reset-design" ng-click="cancel()" ng-disabled="isCancelDisabled()"
                            onClick="_gaq.push(['_trackEvent', 'Design Build', 'reset-design', '{{dress.silId}}/{{dress.itemId}}']);">Reset</a>
                         <a class="btn btn-info" id="buy-big-btn" href="#/purchase"
                            onClick="_gaq.push(['_trackEvent', 'Design Build', 'buy-big-btn', '{{dress.silId}}/{{dress.itemId}}']);">Buy Now</a>
+                      </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
 
             <div id="dress_designer_panel" class="span7">
@@ -146,32 +151,7 @@
                     </div>
 
             </div>
-        </div>
-    </div>
-
-
-    <div class="row-fluid" id="debug_view">
-        <div class="span4 align-left">
-            <a class="btn btn-mini" ng-click="isDebugCollapsed = !isDebugCollapsed">Toggle debug view</a>
-        </div>
-        <div class="span4 align-center">
-            <a class="btn btn-mini" href="#/designAdmin/{{design.desId}}">Toggle admin view</a>
-        </div>
-        <div class="span4 align-right">
-            <a class="btn btn-mini" ng-click="isFlatDesigner = !isFlatDesigner">Toggle flat designer</a>
-        </div>
-        <hr>
-        <div collapse="isDebugCollapsed">
-            <pre>form={{form}}</pre>
-            <pre>fabricSets={{fabricSets}}</pre>
-            <pre>trimFabricSets={{trimFabricSets}}</pre>
-            <pre>dressFabricSets={{dressFabricSets}}</pre>
-
-
-            <pre>master={{master}}</pre>
-            <pre>category={{category}}</pre>
-            <pre>design={{design}}</pre>
-            <pre>range={{range}}</pre>
+          <!--</div>-->
         </div>
     </div>
 </div> <!-- /designBuildView -->

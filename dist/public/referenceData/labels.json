@@ -1,0 +1,155 @@
+[
+
+        {"id":"nek", "label": "neckline"}
+          , {"id":"nek-000", "label": "no neckline"}
+          , {"id":"nek-001", "label": "bateau"}
+          , {"id":"nek-002", "label": "scoop"}
+          , {"id":"nek-003", "label": "V-slit"}
+          , {"id":"nek-004", "label": "tailored wrap"}
+          , {"id":"nek-005", "label": "plunge"}
+          , {"id":"nek-006", "label": "doloman"}
+          , {"id":"nek-007", "label": "V doloman"}
+          , {"id":"nek-008", "label": "tied asymetrical"}
+          , {"id":"nek-009", "label": "asymetrical"}
+          , {"id":"nek-010", "label": "square"}
+          , {"id":"nek-011", "label": "halterneck"}
+          , {"id":"nek-012", "label": "cowl"}
+          , {"id":"nek-013", "label": "gathered wrap"}
+          , {"id":"nek-014", "label": "shift scoop"}
+          , {"id":"nek-015", "label": "shift v slit"}
+          , {"id":"nek-016", "label": "shift v"}
+          , {"id":"nek-017", "label": "shirt collar"}
+          , {"id":"nek-018", "label": "shirt no collar"}
+
+          , {"id":"trm-nek", "label": "neck and shoulder trim"}
+          , {"id":"trm-nek-000", "label": "no trim"}
+          , {"id":"trm-nek-001", "label": "bateau"}
+          , {"id":"trm-nek-002", "label": "scoop"}
+          , {"id":"trm-nek-003", "label": "V-slit"}
+          , {"id":"trm-nek-004", "label": "tailored wrap"}
+          , {"id":"trm-nek-005", "label": "plunge"}
+          , {"id":"trm-nek-006", "label": "doloman"}
+          , {"id":"trm-nek-007", "label": "V doloman"}
+          , {"id":"trm-nek-008", "label": "tied asymetrical"}
+          , {"id":"trm-nek-009", "label": "asymetrical"}
+          , {"id":"trm-nek-010", "label": "square"}
+          , {"id":"trm-nek-011", "label": "halterneck"}
+          , {"id":"trm-nek-012", "label": "cowl"}
+          , {"id":"trm-nek-013", "label": "gathered wrap"}
+          , {"id":"trm-nek-014", "label": "shift scoop"}
+          , {"id":"trm-nek-015", "label": "shift v slit"}
+          , {"id":"trm-nek-016", "label": "shift v"}
+          , {"id":"trm-nek-017", "label": "shirt collar"}
+          , {"id":"trm-nek-018", "label": "shoulder cowl"}
+
+          , {"id":"slv", "label": "sleeves"}
+          , {"id":"slv-000", "label": "sleeveless"}
+          , {"id":"slv-001", "label": "short cap"}
+          , {"id":"slv-002", "label": "long cap"}
+          , {"id":"slv-003", "label": "tailored doloman"}
+          , {"id":"slv-004", "label": "doloman tied"}
+          , {"id":"slv-005", "label": "floaty short"}
+          , {"id":"slv-006", "label": "elbow"}
+          , {"id":"slv-007", "label": "threequarters"}
+          , {"id":"slv-008", "label": "bell"}
+          , {"id":"slv-009", "label": "flared"}
+          , {"id":"slv-010", "label": "gathered long"}
+          , {"id":"slv-011", "label": "shirt tab"}
+          , {"id":"slv-012", "label": "shirt long"}
+          , {"id":"slv-013", "label": "doloman short"}
+          , {"id":"slv-014", "label": "doloman mid"}
+          , {"id":"slv-015", "label": "sleeveless"}
+          , {"id":"slv-016", "label": "short shirt"}
+
+          , {"id":"trm-slv", "label": "sleeves trim"}
+          , {"id":"trm-slv-000", "label": "sleeveless"}
+          , {"id":"trm-slv-001", "label": "short cap"}
+          , {"id":"trm-slv-002", "label": "long cap"}
+          , {"id":"trm-slv-003", "label": "tailored doloman"}
+          , {"id":"trm-slv-004", "label": "doloman tied"}
+          , {"id":"trm-slv-005", "label": "floaty short"}
+          , {"id":"trm-slv-006", "label": "elbow"}
+          , {"id":"trm-slv-007", "label": "threequarters"}
+          , {"id":"trm-slv-008", "label": "bell"}
+          , {"id":"trm-slv-009", "label": "flared"}
+          , {"id":"trm-slv-010", "label": "gathered long"}
+          , {"id":"trm-slv-011", "label": "shirt tab"}
+          , {"id":"trm-slv-012", "label": "shirt long"}
+          , {"id":"trm-slv-013", "label": "doloman short"}
+          , {"id":"trm-slv-014", "label": "doloman mid"}
+          , {"id":"trm-slv-015", "label": "sleeveless"}
+          , {"id":"trm-slv-016", "label": "short shirt"}
+
+          , {"id":"skt", "label": "skirt"}
+          , {"id":"skt-000", "label": "no skirt"}
+          , {"id":"skt-011", "label": "short pencil"}
+          , {"id":"skt-012", "label": "knee pencil"}
+          , {"id":"skt-013", "label": "mid pencil"}
+          , {"id":"skt-014", "label": "long pencil"}
+          , {"id":"skt-015", "label": "maxi pencil"}
+          , {"id":"skt-021", "label": "short pencil - ruffle"}
+          , {"id":"skt-022", "label": "knee pencil - ruffle"}
+          , {"id":"skt-023", "label": "mid pencil - ruffle"}
+          , {"id":"skt-024", "label": "long pencil - ruffle"}
+          , {"id":"skt-025", "label": "maxi pencil - ruffle"}
+          , {"id":"skt-031", "label": "short swoosh"}
+          , {"id":"skt-032", "label": "knee swoosh"}
+          , {"id":"skt-033", "label": "mid swoosh"}
+          , {"id":"skt-034", "label": "long swoosh"}
+          , {"id":"skt-035", "label": "maxi swoosh"}
+          , {"id":"skt-051", "label": "short swing"}
+          , {"id":"skt-052", "label": "knee swing"}
+          , {"id":"skt-053", "label": "mid swing"}
+          , {"id":"skt-054", "label": "long swing"}
+          , {"id":"skt-055", "label": "maxi swing"}
+          , {"id":"skt-071", "label": "short flare"}
+          , {"id":"skt-072", "label": "knee flare"}
+          , {"id":"skt-073", "label": "mid flare"}
+          , {"id":"skt-074", "label": "long flare"}
+          , {"id":"skt-075", "label": "maxi flare"}
+          , {"id":"skt-091", "label": "short wrap"}
+          , {"id":"skt-092", "label": "knee wrap"}
+          , {"id":"skt-093", "label": "mid wrap"}
+          , {"id":"skt-094", "label": "long wrap"}
+          , {"id":"skt-095", "label": "maxi wrap"}
+          , {"id":"skt-101", "label": "short shift"}
+          , {"id":"skt-102", "label": "knee shift"}
+          , {"id":"skt-103", "label": "mid shift"}
+          , {"id":"skt-104", "label": "long shift"}
+          , {"id":"skt-105", "label": "maxi shift"}
+          , {"id":"skt-121", "label": "short shirt"}
+          , {"id":"skt-122", "label": "knee shirt"}
+          , {"id":"skt-123", "label": "mid shirt"}
+          , {"id":"skt-124", "label": "long shirt"}
+          , {"id":"skt-125", "label": "maxi shirt"}
+
+          , {"id":"ext", "label": "extras"}
+          , {"id":"ext-000", "label": "none"}
+          , {"id":"ext-001", "label": "neck tie"}
+          , {"id":"ext-002", "label": "peplum"}
+          , {"id":"ext-003", "label": "rosetta"}
+          , {"id":"ext-004", "label": "pockets"}
+          , {"id":"ext-005", "label": "front stripe"}
+
+          , {"id":"blt", "label": "belt"}
+          , {"id":"blt-000", "label": "none"}
+          , {"id":"blt-001", "label": "gathered waist"}
+          , {"id":"blt-002", "label": "ribbon belt"}
+          , {"id":"blt-003", "label": "fabric belt"}
+          , {"id":"blt-004", "label": "obi belt"}
+          , {"id":"blt-005", "label": "string belt"}
+          , {"id":"blt-006", "label": "wrap fabric belt"}
+          , {"id":"blt-007", "label": "shift fabric belt"}
+          , {"id":"blt-008", "label": "shirt fabric belt"}
+
+          , {"id":"p-wc", "label": "wool crepe"}
+          , {"id":"s-vc", "label": "viscose crepe"}
+          , {"id":"p-ww", "label": "woven wool"}
+          , {"id":"s-ww", "label": "woven poly/viscose"}
+          , {"id":"p-sk", "label": "silk"}
+          , {"id":"s-py", "label": "polyester"}
+          , {"id":"x-fl", "label": "faux leather"}
+          , {"id":"x-sq", "label": "sequins"}
+          , {"id":"x-pt", "label": "polyester trim"}
+          , {"id":"?-al", "label": "acetate lining"}
+]
