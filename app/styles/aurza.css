@@ -192,6 +192,11 @@ img.centre {
 }
 
 div.addthis_toolbox {
-    width:210px;
+     width:210px;
+     margin: 0 auto;
+ }
+
+div.coinbase-button {
+    /*width:150px;*/
     margin: 0 auto;
 }
