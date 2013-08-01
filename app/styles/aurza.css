@@ -190,3 +190,8 @@ img.centre {
     margin-top:0px;
     top:50%;
 }
+
+div.addthis_toolbox {
+    width:210px;
+    margin: 0 auto;
+}
