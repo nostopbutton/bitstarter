@@ -1,0 +1,420 @@
+/* Large desktop */
+@media (min-width: 980px) {
+    body {
+        padding-top: 10px;
+    }
+
+    .linediv-l {
+        border-right: 1px white solid;
+    }
+
+    .linediv-r {
+        border-left: 1px white solid;
+    }
+
+    .linediv-b {
+        border-bottom: 1px white solid;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .copy {
+        padding: 2.5% 10%;
+    }
+
+    .linediv-l {
+        border-bottom: 1px white solid;
+    }
+
+    .linediv-r {
+        border-top: 1px white solid;
+    }
+}
+
+/* All form factors */
+
+/* Main body and headings */
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* Janky fix for preventing navbar from overlapping */
+section[id] {
+    padding-top: 135px;
+    margin-top: -10px;
+}
+
+.heading, .subheading {
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+p.lead {
+    /*padding-top: 2%;*/
+    padding-bottom: 0%;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Video pitch and Action */
+.pitch {
+    padding: .5% 0% 0% 0%;
+}
+
+.order {
+    padding: 2% 0%;
+}
+
+.actions {
+    background-color: #666;
+    padding: 1% 0%;
+    margin-top: -150px;
+}
+
+.video, .thermometer, .order, .social{
+    text-align: center;
+}
+
+.statistics {
+    text-align: left;
+}
+
+.statistics h1, .statistics p {
+    color: white;
+    margin-bottom:0%;
+}
+
+.statistics .label {
+    margin-bottom:5%;
+    text-align: center;
+    /*padding-bottom:0%;*/
+}
+
+.thermometer.progress {
+    margin:5% 0;
+}
+
+.btn-pledge {
+    margin-bottom:10%;
+}
+
+
+/* Marketing Copy and Footer */
+.copy {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: justify;
+}
+
+.asset {
+    padding: 2.5% 0%;
+}
+
+.footer {
+    color: #cccccc;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 11px;
+}
+
+.footer a {
+    color: #ccccff;
+}
+
+.logo {
+    /*padding: 0;*/
+    /*margin:0;*/
+    /*padding-bottom: 1.5%;*/
+    /*font-family: 'Balham', Helvetica, Arial, sans-serif;*/
+    /*font-size: 80px;*/
+    width:230px;
+    margin: 10px 0;
+}
+.sub-title {
+    /*padding-bottom: 0%;*/
+    /*font-family: 'Balham', Helvetica, Arial, sans-serif;*/
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.dict.box {
+    padding: .5%;
+    background-color: white;
+    border-color: #eee;
+    border-style:  solid;
+    border-width: 5px;
+    margin-bottom:10px;
+}
+.dict.box.inner {
+    /*padding: .5%;*/
+    color: #533;
+    background-color: #eee;
+    border-color: #eee;
+    /*border-style:  double;*/
+    border-width: 0px;
+    margin-bottom:0px;
+}
+p.dict {
+    text-align: left
+}
+
+p.dict.word {
+    padding-top: 1.5%;
+    /*font-style:italic;*/
+    /*font-size: 24px;*/
+    line-height: 20px;
+}
+
+p.dict.type {
+    font-weight: 200;
+    font-style:normal;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+p.dict.def {
+    font-weight: 200;
+    /*font-style:italic;*/
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.content
+{
+    position:absolute;
+    height:auto;
+    width:auto;
+    top:14%;
+    left:58%;
+    right:18%;
+    color: #ffffff;
+}
+
+.placeholder {
+    border-color: white;
+    padding: 0.5%;
+    background-color: #eee;
+    border-width: 8px;
+}
+
+.placeholder.image {
+    font-color: #533;
+    font-style:italic;
+    background-color: #eee;
+    border-color: white;
+    border-style: double;
+}
+.placeholder.video {
+    font-color: #533;
+    font-style:italic;
+    background-color: white;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+}
+
+p.tags {
+    font-weight: 200;
+    font-size: 16px;
+    padding-bottom: -20px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.steps {
+    text-align: center;
+}
+
+.left-title {
+    float:left;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.right-title {
+    float:right;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.clear-title {
+    clear:both;
+    text-align: center;
+}
+
+img.centre {
+    display: block;
+    margin: 0 auto;
+}
+
+.pledges {
+    /*background-color: #343434;*/
+    /*background-color: #533;*/
+    /*background-color: #454;*/
+    background-color: #899;
+    /*background-color: #244;*/
+    /*background-color: #666;*/
+    padding: 1% 0%;
+}
+
+.pledge {
+    padding: 5%;
+}
+
+.pledge .amount {
+    /*padding: 0%;*/
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.pledge .backers {
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.pledge .desc {
+    margin: 0%;
+    font-size: 14px;
+    /*font-weight: 800;*/
+}
+
+.problem {
+    background-color: #ffe3e4;
+}
+
+.solution {
+    background-color: #ecffdc;
+}
+
+/*.item {*/
+    /*min-height: 600px;*/
+/*}*/
+.carousel-caption {
+    height: 170px;
+}
+
+
+.carousel-caption .range {
+    font-size: 12px;
+}
+
+.carousel-control.item {
+    height:20px;
+    width:20px;
+    font-weight:300;
+    font-size: 20px;
+    line-height:20px;
+    margin-top:0px;
+    top:50%;
+}
+
+div.addthis_toolbox {
+     width:210px;
+     margin: 0 auto;
+ }
+
+div.coinbase-button {
+    /*width:150px;*/
+    margin: 0 auto;
+}
+
+.strap-line {
+    /*height:55px;*/
+    /*line-height: 50px;*/
+    text-align: center;
+    font-family:"Times New Roman", Times, serif;
+    font-style:italic;
+    font-size:20px;
+    color: #888;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*vertical-align:middle;*/
+}
+
+/*http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/*/
+blockquote {
+    /*font-family: Georgia, serif;*/
+    /*font-size: 18px;*/
+    /*font-style: italic;*/
+    /*width: 500px;*/
+    /*margin: 0.25em 0;*/
+    /*padding: 0.25em 40px;*/
+    /*line-height: 1.45;*/
+    /*position: relative;*/
+    /*color: #383838;*/
+    font-family:"Times New Roman", Times, serif;
+    font-size:24px;
+    font-style:italic;
+    color: #888;
+    margin: 10px 10px 10px 30px;
+    /*margin-bottom: 20px;*/
+    /* Reset Bootstrap blockquote attributes */
+    border-left:0px;
+    padding:10px;
+
+}
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left:0px;
+    top: -25px;
+    color: #7a7a7a;
+}
+blockquote:after {
+    /*display: block;*/
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    /*left: 20px;*/
+    /*top: 20px;*/
+    color: #7a7a7a;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    /*height: 700px;*/
+}
+
+.centeredImage
+{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}

@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    body { padding-top: 130px;}
+}
+
+.navbar .nav,
+.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+    height: 20px;
+}
+
+.navbar .nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-right-style: solid;
+    border-right-color: #ccc;
+    border-right-width: 1px;
+}
+
+.navbar .nav > :last-child {
+    border-right-style: none;
+}
+
+.navbar-inner {
+
+    text-align:center;
+    height: 40px; /* change value here*/
+}
+
+.navbar-nav > li > a {
+    height: 20px;
+    padding-top: 5px;
+    line-height: 10px;
+    color: #222;
+}
+
+.navbar{
+    background-color: white;
+    padding-bottom: 10px;
+    border-color: white;
+}
+
+.navbar .nav {
+    border-bottom-style: solid;
+    border-bottom-color: #bbb;
+    border-bottom-width: 1px;
+
+    border-top-style: solid;
+    border-top-color: #bbb;
+    border-top-width: 1px;
+
+    height: 40px;
+}
+
+#footer .terms {
+    text-align:center;
+    border-right-style: solid;
+    border-right-color: #bbb;
+    border-right-width: 1px;
+    padding-right: 10px;
+    margin:0px;
+}
+
+#footer .privacy {
+    margin:0px;
+    padding-left: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body { padding-top:175px; }
+    .navbar-inner {
+        height: 70px;
+    }
+}
