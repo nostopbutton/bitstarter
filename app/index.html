@@ -33,15 +33,21 @@
       a.src = g;
       m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-42859790-1', 'aurza.com');
+    ga('create', 'UA-38964974-3', 'aurza.com');
     ga('send', 'pageview');
   </script>
+
+  <!-- TODO: UA-38964974-3 - staging - http://start-aurza.nostopbutton.com/-->
+  <!-- TODO: UA-42859790-1 - production - http://start.aurza.com/-->
   <!-- Facebook meta tags -->
   <meta property="fb:app_id" content="153275411536544"/>
   <meta property="fb:admins" content="762528798"/>
   <meta property="og:title" content="AURZA - Experience custom, feel Amazing!" />
   <meta property="og:type" content="company, product"/>
-  <meta property="og:url" content="start.aurza.com"/>
+
+  <!-- TODO - change to production URL -->
+  <meta property="og:url" content="start-aurza.nostopbutton.com"/>
+
   <!--<meta property="og:image" content="http://start.aurza.com/logo-aurza-150x115.jpg"/>-->
   <meta property="og:site_name" content="AURZA - Experience custom, feel Amazing!" />
   <meta property="og:description"
@@ -57,8 +63,7 @@
   <!--<meta property="og:url" content="start.aurza.com" />-->
   <meta property="og:image" content="https://launchrock-assets.s3.amazonaws.com/facebook-files/L4UJB8Z9_1378015010222.png?_=0" />
 
-  <!--TODO - add description -->
-  <meta name="description" content="">
+  <meta name="description" content="Design your own dress with the click of a few buttons">
   <title>AURZA - experience custom</title>
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -82,9 +87,11 @@
       rel="stylesheet" type="text/css">
   <!--<link rel="stylesheet" type="text/css" href="./styles/fonts/balham.css">-->
 
+  <!-- build:css styles/main.css -->
   <link rel="stylesheet" type="text/css" href="./styles/aurza.css">
   <link rel="stylesheet" type="text/css" href="./styles/start-aurza.css">
   <link rel="stylesheet" type="text/css" href="./styles/custom_bootstrap.css">
+  <!-- endbuild -->
 </head>
 <body data-spy="scroll" data-target=".navbar" ng-app="panicApp">
 <!--[if lt IE 7]>
