@@ -72,11 +72,57 @@ p {
 }
 
 .actions {
-    background-color: #666;
-    padding: 1% 0%;
-    margin-top: -150px;
+    /*background-color: #666;*/
+    padding: 0;
+    margin-top: -250px;
 }
 
+.actions .LR-box-wrapper {
+    background-color: #666;
+    padding: 0;
+    margin:0;
+    width:100%;
+
+}
+
+div[class="LR-box"] {
+    background-color: #eeeeee;
+}
+
+.LR-box-inner .LR-site-title {
+    font-size:20px;
+    /*color:red;*/
+    margin-top: -10px;
+}
+
+.LR-box-inner .LR-site-description {
+    /*color:red;*/
+    padding: 0 40px;
+    margin: 0;
+}
+
+.LR-box-inner .LR-sign-up span.LR-sign-up-label {
+    font-size:18px;
+    padding: 0 20px;
+    text:justified;
+    /*color:blue;*/;
+    margin: 0;
+}
+
+.LR-sign-up .LR-sign-up-container{
+    margin-top:20px;
+    width:373px;
+}
+
+input[type='email'].LR-sign-up-input.signup-email{
+    height: 40px;
+    /*margin:0 auto;*/
+
+}
+input[type='submit'].LR-sign-up-submit{
+    height: 40px;
+    /*margin:0 auto;*/
+}
 .video, .thermometer, .order, .social{
     text-align: center;
 }
