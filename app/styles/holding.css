@@ -98,7 +98,7 @@ img.dress {
     content: '';
     z-index: -11;
     position: absolute;
-    left: 120px;
+    left: 20px;
     bottom: 20px;
     width: 70%;
     max-width: 300px;  /*avoid rotation causing ugly appearance at large container widths*/
