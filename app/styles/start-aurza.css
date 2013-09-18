@@ -464,3 +464,8 @@ blockquote cite:before {
     margin-bottom:0px;
     padding:0px;
 }
+
+#range-carousel .item img {
+    width:200px;
+    height:500px;
+}
