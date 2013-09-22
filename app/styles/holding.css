@@ -61,9 +61,12 @@ ul{
     margin-bottom:20px;
 }
 
-.info-box {
+div.info-box {
+    /*position: absolute;*/
+    /*top:40px;*/
     width:100%;
     background-color: #eee;
+    /*background-color: transparent;*/
     border-style: solid;
     border-color: #eee;
     border-width: 10px;
@@ -131,9 +134,25 @@ input[type='submit'].LR-sign-up-submit {
     height: 40px;
 }
 
+#bg {
+    display: none;
+}
 
-@media screen and (max-width: 800px) {
+/*@media screen and (min-width: 601px) {*/
+    /*.small {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
+@media screen and (max-width: 992px) {
+
+    .large {
+        display:none;
+    }
+
+    body {
+        background-color:transparent;
+    }
 
     .aurza-logo {
         font-size:40px;
@@ -142,6 +161,8 @@ input[type='submit'].LR-sign-up-submit {
         margin-bottom: 0;
         border-top-style: solid;
         border-bottom-style: solid;
+        background-color: #FFFFFF;
+        width:100%
     }
 
     .holding {
@@ -153,22 +174,29 @@ input[type='submit'].LR-sign-up-submit {
     .punchline {
         color:#ffffff;
         text-shadow: 1px 1px #000000;
-        /*text-decoration-line: ;*/
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .description, .diy {
-        color: #676767;
-        text-shadow: 2px 2px 1px #000000;
+        color: #aeaeae;
+        text-shadow: 1px 1px #000000;
         font-size: 14px;
+        margin-bottom: 60px;
     }
 
-    .info-box {
-        background-image: url("../images/launchrock/general.png");
-        background-size: cover;
+    div.info-box {
+        position: absolute;
+        top: 75px;
+        background-size:  100%;
         min-height:100%;
         border-style: none;
+        border-width: 0;
         margin-bottom:0;
+        background-color: transparent;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .LR-sign-up .LR-sign-up-container {
@@ -182,6 +210,45 @@ input[type='submit'].LR-sign-up-submit {
     .img-container {
         display: none;
     }
-}
 
+    #bg {
+        width: 100%;
+        display: block;
+    }
+    #bg img {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+    }
+
+}
+@media screen and (max-width: 556px) {
+    .aurza-logo {
+        font-size:28px;
+        padding:6px 0 0 0 ;
+    }
+
+    div.info-box {
+        padding:0px;
+    }
+
+    .description {
+        margin-bottom: 20px;
+    }
+
+    .launch-widget {
+        /*position: fixed;*/
+        /*bottom: -100px;*/
+        z-index: 100;
+    }
+
+    .holding .strapline,
+    .punchline {
+        font-size: 20px;
+    }
+}
 
