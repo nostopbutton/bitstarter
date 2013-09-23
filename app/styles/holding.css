@@ -8,7 +8,8 @@
 }
 
 .dress-img{
-    max-height:80%;
+    /*max-height:80%;*/
+    max-height:90%;
     text-align:right;
     margin-left: auto;
     margin-right: auto;
@@ -100,22 +101,15 @@ div.info-box {
     transform: skew(-15deg) rotate(-6deg);
 }
 
-.info-box:after {
-    left: auto;
-    right: 10px;
-    right: 20px;
-    -webkit-transform: skew(15deg) rotate(6deg);
-    -moz-transform: skew(15deg) rotate(6deg);
-    -ms-transform: skew(15deg) rotate(6deg);
-    -o-transform: skew(15deg) rotate(6deg);
-    transform: skew(15deg) rotate(6deg);
-}
 
 
 /* Adjusting Launchrock widget */
 
 #content.LR-content {
     min-height: 0px;
+    z-index: 100;
+    top:85%;
+    width:100%;
 }
 
 .launch-widget .LR-box-wrapper {
@@ -197,6 +191,7 @@ input[type='submit'].LR-sign-up-submit {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        padding-top:75px;
     }
 
     .LR-sign-up .LR-sign-up-container {
@@ -225,6 +220,25 @@ input[type='submit'].LR-sign-up-submit {
         min-height: 50%;
     }
 
+    .info-box:before,
+    .info-box:after {
+        /*content: '';*/
+        /*z-index: -11;*/
+        /*position: absolute;*/
+        left: 20px;
+        bottom: 90px;
+    }
+
+    .info-box:after {
+        left: auto;
+        right: 20px;
+        -webkit-transform: skew(15deg) rotate(6deg);
+        -moz-transform: skew(15deg) rotate(6deg);
+        -ms-transform: skew(15deg) rotate(6deg);
+        -o-transform: skew(15deg) rotate(6deg);
+        transform: skew(15deg) rotate(6deg);
+    }
+
 }
 @media screen and (max-width: 556px) {
     .aurza-logo {
@@ -249,6 +263,13 @@ input[type='submit'].LR-sign-up-submit {
     .holding .strapline,
     .punchline {
         font-size: 20px;
+    }
+
+    #content.LR-content {
+        /*min-height: 0px;*/
+        /*z-index: 100;*/
+        top:75%;
+        /*width:100%;*/
     }
 }
 
