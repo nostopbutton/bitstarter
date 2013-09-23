@@ -101,7 +101,15 @@ div.info-box {
     transform: skew(-15deg) rotate(-6deg);
 }
 
-
+.info-box:after {
+    left: auto;
+    right: 20px;
+    -webkit-transform: skew(15deg) rotate(6deg);
+    -moz-transform: skew(15deg) rotate(6deg);
+    -ms-transform: skew(15deg) rotate(6deg);
+    -o-transform: skew(15deg) rotate(6deg);
+    transform: skew(15deg) rotate(6deg);
+}
 
 /* Adjusting Launchrock widget */
 
@@ -121,6 +129,21 @@ div.info-box {
 
 .LR-sign-up .LR-sign-up-container {
     width:345px;
+}
+
+#content.LR-content.LR-sharing-page {
+    /*min-height: 0px;*/
+    z-index: 100;
+    top:20%;
+    width:80%;
+    margin:0 10%;
+}
+
+#content .LR-site-share {
+    /*min-height: 0px;*/
+    /*z-index: 100;*/
+    top:60%;
+    /*width:100%;*/
 }
 
 input[type='email'].LR-sign-up-input.signup-email,
